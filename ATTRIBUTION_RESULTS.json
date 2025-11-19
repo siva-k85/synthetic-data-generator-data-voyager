@@ -1,0 +1,3251 @@
+{
+  "generation_timestamp": "2025-11-19T12:19:37.802418",
+  "total_patients": 360,
+  "attribution_summary": {
+    "attributed": 300,
+    "unattributed": 60,
+    "low_confidence": 18
+  },
+  "patient_attributions": [
+    {
+      "patient_id": "ed2150f5-0eae-5e54-05c6-2d8cf6be60ce",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-10-02T05:12:27-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f5b99891-ae1d-f06c-e834-43ba98261220",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-01-12T16:43:09-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2472642d-69d6-7136-3371-a2de19db3afb",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8333333333333334,
+      "last_visit": "2025-05-28T00:32:37-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2bb41e92-fa8a-9ec4-51ab-24c2e61c2081",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2024-11-17T08:07:02-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e91ba328-4b7c-6187-43df-dd3e1bff842a",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-06-16T18:18:15-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ae77d5c7-7623-e810-1994-fbbe29dc98a2",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2024-11-08T12:20:44-05:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "0ed276e2-9bed-8f22-67e8-8fa4c9a13600",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-10-28T20:49:03-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "86c6f29d-732f-c048-dca3-03d5dfcbcb53",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2024-11-28T11:01:24-05:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "420c2dc0-db92-f897-5e8d-cd76c0b186e1",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-03-05T05:04:24-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "16ae5f68-b969-7187-eb07-9dfc47e95113",
+      "attributed_pcp": "Practitioner/39563aeb-8070-3685-adf6-e6942baaade0",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8333333333333334,
+      "last_visit": "2025-04-17T10:17:44-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "43c90a7f-6443-d73a-572a-08ce471d7089",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9230769230769231,
+      "last_visit": "2025-11-17T14:49:43-05:00",
+      "visit_count": 12,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "7efb0f6e-25fd-dee4-ccbb-84dc0916ec15",
+      "attributed_pcp": "Practitioner/39563aeb-8070-3685-adf6-e6942baaade0",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.42857142857142855,
+      "last_visit": "2025-10-03T19:18:42-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "5b5e2422-36b2-7192-c613-3e313994e745",
+      "attributed_pcp": "Practitioner/f6894a30-1069-3cd5-a623-11baea902183",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-08-19T23:55:29-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "538a3be9-f6bb-3832-2be2-7d64028c1429",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "c2e3c7d1-124e-0f3e-8335-2026ab1044cc",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-05-17T04:58:15-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "524cf456-e7e0-5d28-1d41-3b9b55e3dc92",
+      "attributed_pcp": "Practitioner/39563aeb-8070-3685-adf6-e6942baaade0",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-10-06T14:54:04-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ba386a8e-b4e2-bdec-a4a2-1234326ebd33",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-11-09T06:08:52-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f906a7a5-2ff1-307a-4623-58f7a8e5cb93",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-10-23T09:23:49-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8c9f4b5c-c20f-0f28-4599-5fa1b8455e22",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-06-06T23:35:53-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "0d433ea0-e276-faf4-0f5c-833469e11416",
+      "attributed_pcp": "Practitioner/44c7e19b-8dbd-3278-a35f-70917ed6e3db",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-11-06T13:51:10-05:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "40ee06b3-9030-a022-27ff-f43e3c7c4474",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-07-13T17:12:09-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e2259776-b8ac-20a1-d9d9-98d62ef2da6e",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8571428571428571,
+      "last_visit": "2025-07-14T18:07:26-04:00",
+      "visit_count": 12,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "9f289c4a-b7c6-5a05-c87f-d09a97655ae5",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-02-19T13:40:57-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "7188702e-1c55-972a-d279-2628fb02caf3",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2024-05-31T18:38:12-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "890a5b32-7bb0-b92a-c092-7a55e0219d82",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9411764705882353,
+      "last_visit": "2025-11-14T06:02:49-05:00",
+      "visit_count": 32,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "86db141b-d812-e376-e115-67a3ec604a8f",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "10b67830-1fe2-5c0d-c41e-a7fbea733a22",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-03-24T15:01:18-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1261008e-f5a9-cc6f-0f74-70d66624a4b1",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.7777777777777778,
+      "last_visit": "2025-01-05T13:39:38-05:00",
+      "visit_count": 7,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1d332638-04ca-7c24-5e87-a28eb7936099",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-10-11T19:36:52-04:00",
+      "visit_count": 13,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "fdba3e7b-3455-41e7-2857-0d5b712c25bc",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5714285714285714,
+      "last_visit": "2025-11-06T23:09:59-05:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "80a8ce5f-096a-3753-55ca-c11b565baa43",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-08-08T06:45:51-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "6cf9397f-9a3d-fbe0-7507-a393c041ecc4",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-12-10T06:01:37-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2fa3fc79-ad24-00b4-b5a1-242a6a62e65f",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-08-19T06:04:46-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "751988fb-ead5-b874-d6fd-7bbd594432ca",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "7b034147-d468-99c4-a44a-ce248fe419f0",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-08-24T22:19:39-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "897f623c-556b-222f-acdc-8840a60aecc5",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2024-12-28T12:20:44-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "17f72ce9-3aea-fd4e-0c4a-1a1e1305bcc2",
+      "attributed_pcp": "Practitioner/26b7e1db-f6ea-384b-aed8-df6acb08ba04",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.875,
+      "last_visit": "2025-09-16T14:25:10-04:00",
+      "visit_count": 7,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "11789e0d-6d97-0a76-6759-161c08842258",
+      "attributed_pcp": "Practitioner/26b7e1db-f6ea-384b-aed8-df6acb08ba04",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-05-09T20:18:24-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "34386cce-cea3-0f8b-9622-75b1afbc1189",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "a248a91a-1303-5372-5d05-82e6ed2b1eb5",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-04-02T12:12:14-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "aaf8661a-e67d-511b-6bbf-680950a9b4a6",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-08-04T19:12:46-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "5d15bc9d-b749-0b20-9ff2-08eb4bf3544b",
+      "attributed_pcp": "Practitioner/44c7e19b-8dbd-3278-a35f-70917ed6e3db",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-11-03T05:53:18-05:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "03b1dde0-925b-ddf4-1bff-aad8bb629ad9",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-07-28T08:16:35-04:00",
+      "visit_count": 16,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "a5840314-437c-bd49-fcd7-8a3dd4a7cc71",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.7333333333333333,
+      "last_visit": "2025-09-24T20:59:59-04:00",
+      "visit_count": 11,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "11315401-2ac9-f7f6-1286-d547518a2531",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-04-29T20:57:55-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "a2991e09-c98f-49e3-4923-c2e32cde79aa",
+      "attributed_pcp": "Practitioner/39563aeb-8070-3685-adf6-e6942baaade0",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-04-26T08:54:34-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "0e14c32e-e403-a218-f04b-fc6daf94cae5",
+      "attributed_pcp": "Practitioner/1c74d5d5-05ec-3eb9-9893-d8ee54cc5f59",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-08-19T01:42:12-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "164f3e83-8820-13d7-fd12-60bcacfb1f74",
+      "attributed_pcp": "Practitioner/26b7e1db-f6ea-384b-aed8-df6acb08ba04",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-07-21T13:39:47-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "87ba2292-f6d3-4cc7-749d-4044994c7dec",
+      "attributed_pcp": "Practitioner/39563aeb-8070-3685-adf6-e6942baaade0",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-07-20T01:13:34-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "cb4977cb-7c65-d291-1381-249b1e96d852",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-03-24T07:33:14-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "51454d7b-ccc5-9d46-5922-05e365eb114e",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8181818181818182,
+      "last_visit": "2025-05-28T18:01:33-04:00",
+      "visit_count": 9,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8f7521cb-1298-c77f-4404-4c055d1e32eb",
+      "attributed_pcp": "Practitioner/f6894a30-1069-3cd5-a623-11baea902183",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-01-17T00:45:21-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "c9f2d07f-8ea3-5a71-f308-63097d20f81c",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-10-19T23:29:32-04:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "5ef0a271-713b-5873-d416-8c2f2d14a336",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-09-27T03:48:56-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f6f80ac5-f041-dca2-9b32-1dba316b5e1b",
+      "attributed_pcp": "Practitioner/26b7e1db-f6ea-384b-aed8-df6acb08ba04",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-04-20T07:37:55-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "7c2bd422-eb12-1b57-aad7-1226dcb42220",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-11-01T17:29:30-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "0523e7f6-087f-d08a-1e9b-975180cdc334",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-01-21T16:52:42-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "775f399b-d3f9-437e-edc1-7576521de54e",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8333333333333334,
+      "last_visit": "2025-10-09T11:14:39-04:00",
+      "visit_count": 10,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "5a9cbb02-b727-355e-a982-2ca0100dc0a7",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-04-16T22:16:23-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e482a6f0-94be-008c-1cc6-59c224e5d88f",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-01-28T00:38:15-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "bd427576-ecf2-0dfa-3867-b8f4f1e5d240",
+      "attributed_pcp": "Practitioner/1c74d5d5-05ec-3eb9-9893-d8ee54cc5f59",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-03-27T23:15:10-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d77d60a7-fdaa-4327-3314-826e2f3608e4",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9090909090909091,
+      "last_visit": "2025-10-24T15:01:27-04:00",
+      "visit_count": 10,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "6debc3b3-87cb-85d4-1659-421f6750e3eb",
+      "attributed_pcp": "Practitioner/26b7e1db-f6ea-384b-aed8-df6acb08ba04",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-01-23T20:22:07-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "da03f81d-4bfc-0f69-7080-3ea7fbbda852",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-03-09T08:23:31-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e6e8482b-f20d-ec05-983f-dc76b4fe002a",
+      "attributed_pcp": "Practitioner/1242b43c-bdf0-3807-8a30-c691b17975ad",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.95,
+      "last_visit": "2025-11-12T20:38:54-05:00",
+      "visit_count": 57,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "03218e1b-3f5b-814c-77a3-4752afe78900",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-05-29T08:07:50-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d733bc1f-a125-9d09-dfeb-c42759b69194",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-06-08T05:19:15-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d64eef7e-b2e6-a092-f2f3-878cff62e151",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-09-23T00:31:12-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "259f32a2-8200-584b-dec7-7fee34e29602",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "23c0d60d-343d-92d5-5843-790452c8730f",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-10-28T09:18:09-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "9ab8e657-6380-4684-950e-64ef26803962",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-11-13T23:23:09-05:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "99be3be0-6737-8001-9725-0da18f0067b9",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2024-10-20T06:59:28-04:00",
+      "visit_count": 12,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2869b9a9-9c16-8752-06ab-37932aa2d89a",
+      "attributed_pcp": "Practitioner/26b7e1db-f6ea-384b-aed8-df6acb08ba04",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-10-30T00:00:18-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "065d2589-95eb-cf1b-4d85-4f33c62a99c1",
+      "attributed_pcp": "Practitioner/26b7e1db-f6ea-384b-aed8-df6acb08ba04",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-12-21T01:53:14-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "17f6e750-1d3d-ebaf-c2c3-3b6eb0495284",
+      "attributed_pcp": "Practitioner/26b7e1db-f6ea-384b-aed8-df6acb08ba04",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-08-10T22:57:01-04:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "7841410c-ab9b-3d09-433d-354d563645f5",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-05-14T00:10:37-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2cecfb48-c9a1-b663-2366-4997ba7463ca",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2024-12-28T04:46:36-05:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f4fd865c-09bd-71cf-977f-58bfb6b0a724",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.4444444444444444,
+      "last_visit": "2025-04-18T07:47:30-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "c164b1f6-1bf3-9483-7c2f-b8573baf0659",
+      "attributed_pcp": "Practitioner/44c7e19b-8dbd-3278-a35f-70917ed6e3db",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-06-12T13:21:01-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "398bee31-a704-212d-a782-0f5751699754",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2023-12-23T14:33:27-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2456d73b-7586-e567-825c-b2af770755d5",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-09-13T00:15:43-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8b1dd857-317d-a9ec-b970-0f66dc1f1183",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-11-06T01:06:56-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "a1abfae4-8000-38e2-9d08-4d8221b72155",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-09-04T13:41:10-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e7c90295-e156-060d-fc29-2c8972a9a7f5",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2024-09-09T14:48:22-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "53c0c651-b4cf-cde4-c8fb-efc332e7ebf5",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-09-08T03:39:54-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "b9531456-e56c-47b0-b728-95afb84e315d",
+      "attributed_pcp": "Practitioner/1242b43c-bdf0-3807-8a30-c691b17975ad",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-05-21T10:20:04-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "9ec60292-be48-7e0d-2f00-1e72b2251a31",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9411764705882353,
+      "last_visit": "2025-10-31T14:08:05-04:00",
+      "visit_count": 16,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "093eb313-d218-37fa-d903-21dde0f9d011",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-11-14T13:55:08-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "92b930d9-3375-2db9-4df8-39083790f04f",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8823529411764706,
+      "last_visit": "2025-11-05T13:31:07-05:00",
+      "visit_count": 15,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "30e7b3e8-c997-eada-ede1-d12a947bd2cc",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-06-06T19:35:32-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2a683d0a-8074-5a59-46c0-5097dfe14969",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "c07e3f83-6598-fb1e-f3e5-90ef0ad35c31",
+      "attributed_pcp": "Practitioner/f6894a30-1069-3cd5-a623-11baea902183",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-02-07T10:13:06-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "440aaa79-e400-5615-59ff-544551f7fad2",
+      "attributed_pcp": "Practitioner/44c7e19b-8dbd-3278-a35f-70917ed6e3db",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-06-08T18:41:07-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "56b9c8c6-e823-a721-e199-96e368a4553c",
+      "attributed_pcp": "Practitioner/bec918fa-3d19-3fa9-8b8e-4e9ad29b53f9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-08-30T12:14:48-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "c21c8402-bcc8-2c0c-9758-9c686a64b494",
+      "attributed_pcp": "Practitioner/44c7e19b-8dbd-3278-a35f-70917ed6e3db",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-05-29T22:33:35-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "58e515c7-fa35-9ec0-0be6-dbd4cd4d8767",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-06-08T03:04:06-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8264ee13-c301-720c-b211-724ec7e5fa23",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-10-03T14:58:25-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4cb6192e-fb98-bb33-ece7-f25b6da93d95",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-10-12T04:45:30-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "5b78521b-f678-151d-7c11-4b2ecba414b0",
+      "attributed_pcp": "Practitioner/c6bb8fc7-bb8e-3f09-8f98-36ef11d8c0cb",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-05-13T03:53:06-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "02f1dfa0-c30b-df1c-27a7-995cf4b76a88",
+      "attributed_pcp": "Practitioner/1242b43c-bdf0-3807-8a30-c691b17975ad",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.42857142857142855,
+      "last_visit": "2025-06-11T22:16:12-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "82eff254-e12f-c805-4785-e9654e643ab3",
+      "attributed_pcp": "Practitioner/39563aeb-8070-3685-adf6-e6942baaade0",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.4,
+      "last_visit": "2024-09-03T08:50:03-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "54d6b87d-b135-4b10-60fd-913f017b1ada",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.4,
+      "last_visit": "2024-10-18T03:31:33-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "9798345e-49b4-765a-e456-9d6c00bf0b0b",
+      "attributed_pcp": "Practitioner/103105da-6b67-37b0-8845-21cb62d6d75a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-08-15T03:43:05-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "5263167f-4b0d-1fb0-4a80-2212cbd0d57f",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-06-16T23:08:28-04:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "dab1c6ed-0fc8-7b0b-5e01-8326b3e61017",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "77af57e8-242e-0ca1-2d6f-6fe3836ae497",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "338e4560-a3bb-ec14-5234-3aea3b240286",
+      "attributed_pcp": "Practitioner/1c74d5d5-05ec-3eb9-9893-d8ee54cc5f59",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-11-20T10:00:53-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "27335156-8661-4787-eb9a-0d63fcb52bbc",
+      "attributed_pcp": "Practitioner/91174a57-564f-3791-ad51-5263974e4633",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-04-17T17:34:53-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "974ab6d4-cf56-41a3-d3ae-53c4c64d5c04",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-03-14T11:46:20-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f66dff45-8f7e-b218-5b72-1ef1b12e1d1c",
+      "attributed_pcp": "Practitioner/ad6c2579-becf-34ce-9a60-54c3c3fc6363",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-08-26T00:01:14-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4690e222-63da-06e8-93f1-3c689b518ce7",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-04-26T17:17:27-04:00",
+      "visit_count": 29,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "26f6e082-214f-725d-b41b-cd5effff4b19",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "187f4478-443e-8ac7-3148-3d0ab60a19a3",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-10-06T15:59:01-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "75d69051-162d-6f8b-808f-952c16cfb149",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-10-25T14:37:29-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e30083cd-718c-7ec3-f5f3-452aa3470d7d",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-02-10T08:47:14-05:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "21ef6871-4f5e-0636-77ed-ad452429bf51",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.42857142857142855,
+      "last_visit": "2025-04-08T20:54:27-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "58f267c3-883c-4168-0b0b-57febe89509e",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-10-24T10:37:56-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "c39db693-e989-3bf4-1df3-18213590d9e6",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8333333333333334,
+      "last_visit": "2025-09-22T07:00:41-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "5d2d2506-c994-da08-5ff5-ea2b87880710",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2024-11-03T03:46:02-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1bb80009-3a99-ca7c-0723-13276f87d3d6",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.7,
+      "last_visit": "2025-09-13T04:38:16-04:00",
+      "visit_count": 7,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d8a779f6-3e2c-25d6-32fe-b7bd3109e6b8",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-06-21T14:20:19-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "298845ed-e337-0f74-4067-4e3807da83d6",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-03-15T15:41:19-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2fd033e0-ec85-c1d9-5e60-9bf0ca03afa5",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-01-28T13:42:44-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "85dc6d1c-3e9d-cd26-045c-6ce94c0d5321",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-07-15T06:14:40-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "c82186c3-4d2d-d52f-247d-772d3c9071f3",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2024-11-17T07:57:06-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ffcb1cd3-49e8-83c5-6a02-c8c70e290112",
+      "attributed_pcp": "Practitioner/a859b504-8560-3619-b6eb-244cd9e29eb9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2024-12-01T10:37:32-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "bbfb8dab-2094-9647-303b-bddf9889d342",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-09-14T20:16:45-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2b83d71a-6544-4e20-d501-c874cffd26c1",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-11-26T06:12:04-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e6ecba8a-a5c8-098f-6d8d-622e629a084c",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-09-17T13:12:17-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f915dca7-5acf-9e6d-4aa1-2388e549e62c",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-03-24T16:05:25-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "0f528c60-58eb-f20d-2e09-d40dd9a566cb",
+      "attributed_pcp": "Practitioner/ad6c2579-becf-34ce-9a60-54c3c3fc6363",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9230769230769231,
+      "last_visit": "2025-11-03T04:04:17-05:00",
+      "visit_count": 24,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "83551a09-eca3-36d9-1f88-723cf2d30c1c",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-04-20T12:45:00-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e0a7b385-d224-88e9-dfd1-63d91b29e2eb",
+      "attributed_pcp": "Practitioner/ad6c2579-becf-34ce-9a60-54c3c3fc6363",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-09-27T05:55:56-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "967859d9-61a5-a533-5969-fff07d86fa35",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-04-16T00:57:01-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1cbd40c9-86a4-dc6e-ff49-28f304f87780",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2024-01-04T11:07:41-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "a10cf5c1-ed09-b174-e5c4-5a6d52fc5504",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-07-07T04:15:15-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "36d00bb8-47ae-44d6-313e-b555a7c084c3",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-04-06T20:30:06-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ba658cc3-2154-75d1-af96-129e29ede55f",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6153846153846154,
+      "last_visit": "2025-11-14T21:13:07-05:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "b855c6a4-7527-32b5-f86f-297f2c1cd816",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-11-11T08:17:08-05:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "92828fc4-cfb6-b4fd-9563-7b4b246ecec1",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8461538461538461,
+      "last_visit": "2025-11-06T15:55:41-05:00",
+      "visit_count": 11,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4a15a0da-7af9-a1e3-5800-156a59c5f328",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9166666666666666,
+      "last_visit": "2025-10-15T00:39:36-04:00",
+      "visit_count": 11,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "3c6c82d1-1a18-a57f-4bf9-58dbe4a24f12",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9916317991631799,
+      "last_visit": "2025-11-15T11:26:29-05:00",
+      "visit_count": 237,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "a0c37696-f22c-ce44-c6a1-ec476824fc43",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-01-01T17:04:02-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "9a0e5571-2d75-73d7-ff05-b46e7fd0649f",
+      "attributed_pcp": "Practitioner/78d994c3-6571-34da-8dfe-56614c96a69d",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-02-24T04:30:08-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "fe6984fd-8c86-1851-6242-923b42e2fc0e",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-09-14T08:52:37-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "b35b5f20-2f49-c74a-d96e-8d71dd8cbdf5",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.47058823529411764,
+      "last_visit": "2025-01-11T12:17:48-05:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "3478fcd6-9831-e8cb-91a9-66fbe18b3a69",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.4,
+      "last_visit": "2025-09-17T04:39:20-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ae9c4b05-9357-2a8a-126e-5bcef0b25bd8",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-05-08T00:02:56-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "61b81d85-5f2c-a219-0cdd-3e1a5f8cf0ae",
+      "attributed_pcp": "Practitioner/4dbc9074-f240-3004-91bd-168d37c23756",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-02-16T14:54:23-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "66d82633-38f6-999d-72a1-ff32484f9968",
+      "attributed_pcp": "Practitioner/78d994c3-6571-34da-8dfe-56614c96a69d",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-07-28T07:38:50-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ac15e9f1-bca3-4fbb-948a-02917f730bf0",
+      "attributed_pcp": "Practitioner/fd87709c-872a-3290-b41d-c882d330489c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9142857142857143,
+      "last_visit": "2025-04-22T12:48:49-04:00",
+      "visit_count": 32,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "29f7cc39-da1e-a66d-9d50-96e0c34f5041",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8571428571428571,
+      "last_visit": "2025-04-03T05:40:42-04:00",
+      "visit_count": 12,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1ff1f9ec-31f3-2b39-bc22-f3b053ef702d",
+      "attributed_pcp": "Practitioner/fd87709c-872a-3290-b41d-c882d330489c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5245901639344263,
+      "last_visit": "2025-11-01T13:12:56-04:00",
+      "visit_count": 32,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "228e069a-c78c-471f-70ff-a6d591ce297e",
+      "attributed_pcp": "Practitioner/ad6c2579-becf-34ce-9a60-54c3c3fc6363",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9230769230769231,
+      "last_visit": "2025-09-19T05:45:59-04:00",
+      "visit_count": 12,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "b61fe7fe-dbd2-2713-c054-a0ff46f46bac",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-09-14T22:22:57-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ede8478c-ed1a-d6ee-b25d-525c9395c814",
+      "attributed_pcp": "Practitioner/ad6c2579-becf-34ce-9a60-54c3c3fc6363",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.7142857142857143,
+      "last_visit": "2025-06-25T14:53:56-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e6e3ec01-164f-a2b3-61fc-4bfb24ce39a7",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-10-04T23:44:55-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e584bc50-e66e-6c30-d9ab-ad266f8807a2",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-08-02T22:37:37-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e41ae859-70a5-f939-8ec7-51d4063189b6",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-05-05T06:39:36-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4c1536a6-16cf-7a55-e98d-63d798dc33e1",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-09-20T22:07:23-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f89663e5-ce86-c680-46d2-a2fe03dff4cb",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2023-11-27T12:58:48-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ea022757-7a17-5496-ba7a-2a5a3bd7ae64",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-08-27T20:59:57-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1fe4a9d7-3f5e-0e2a-fa99-e907a9c47162",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-06-14T23:14:39-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2655bc9e-8554-a194-cf78-fac3b5dc091a",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "921d5d14-05ee-119c-41dc-44eb55ebd3a0",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-01-08T10:16:36-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e24e4a3d-3934-b4c1-344c-7f567c4b6316",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.7777777777777778,
+      "last_visit": "2025-04-12T03:54:49-04:00",
+      "visit_count": 7,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "6331d0a7-657a-ac60-6833-0f764a5e98a9",
+      "attributed_pcp": "Practitioner/1c383da4-9441-3fa7-94c0-086bc2cf0f07",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-11-06T09:51:23-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d64770b2-3f3d-cd1e-1f67-56a7abd25f61",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-07-05T10:46:59-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "7ec301c9-1d73-5d33-03e4-9175a3285042",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "be6151bb-1797-803b-2311-13e151d19077",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-10-08T03:52:06-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "6731e8ac-5ca7-0778-cfd0-425266c0f5e1",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-02-14T22:00:29-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "cdc0d8b4-03d0-bfd8-c81b-8475c2bb22eb",
+      "attributed_pcp": "Practitioner/95c0de28-d58d-32b8-a583-f226a2bce513",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-10-23T18:23:10-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "956cac88-a7f2-a76c-5c7a-d1fba0bebdb6",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-03-28T16:26:23-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "13c4cedd-4551-1cfa-cba0-985f7e338de2",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-06-20T03:51:23-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1e6b4719-2965-2e50-5247-4d683e98034b",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-05-15T02:30:17-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "0f2d3192-34c8-7f21-baac-6448d0fb4011",
+      "attributed_pcp": "Practitioner/78d994c3-6571-34da-8dfe-56614c96a69d",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.4,
+      "last_visit": "2025-08-30T00:27:58-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "35893816-1202-ab19-fb20-475922ddb3cd",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8571428571428571,
+      "last_visit": "2025-07-28T02:30:12-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "9dc36384-8746-c42e-2a65-061739f615f1",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-03-28T18:38:03-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ae0f6173-7692-15a6-e1b9-1e8fe93aacac",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "783a6795-e7e9-5568-61fd-1ae422335686",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-03-27T17:57:03-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "38c1ef0a-ddc6-c1df-64f6-629545a10425",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "99b60a69-5ae8-56d7-d543-e6dfc1dff70f",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-04-11T14:19:19-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "b38f92d0-bf92-9856-1118-c0fafd1a7e90",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "d3b1f927-32ca-397d-c5e7-d1df8b6a9e10",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "9decaa99-5aa6-0644-7f2d-87a593a7b351",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "86ee638d-3ea9-c808-955c-09646c0eeaea",
+      "attributed_pcp": "Practitioner/ad6c2579-becf-34ce-9a60-54c3c3fc6363",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-02-05T03:27:51-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "97250d36-c2c4-0c9d-a719-00bc9911111a",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-08-19T23:22:18-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e65ad845-2ddf-8920-2f4e-9772ca5d1201",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-06-15T13:24:24-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "75158969-8c5a-6bda-391c-39b26732ba00",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.875,
+      "last_visit": "2024-11-21T17:54:41-05:00",
+      "visit_count": 14,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "b1dfe3bb-08d4-2dba-1364-26fdf96c4f68",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-09-15T02:25:48-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e4d22d65-5b16-01e5-c780-4213818d70c7",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-08-27T00:02:38-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f76dbcf7-f13b-7247-9f98-984dc93373b8",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-07-02T16:42:18-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "5b458e83-4a3f-9788-4c68-08d60934d4fd",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-04-24T10:36:39-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "78b8e123-7aff-d4cd-2e67-ab78e34a9db1",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "b70ea58e-e49a-e44c-a61c-927dc3594b6c",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-05-15T16:00:05-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e891f018-a718-3f59-b7f8-7c9c6a4db59a",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.35714285714285715,
+      "last_visit": "2025-11-01T15:03:33-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "b4a15dcc-910d-48e1-b4d7-70813a1c0086",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-10-13T12:47:54-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1a8e0ae5-ce32-911f-b088-f7223daa9674",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.42857142857142855,
+      "last_visit": "2024-09-19T06:18:42-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "6a9a7c4b-60b6-d2aa-e6aa-0dbe92165790",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-03-17T15:25:46-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "83cf1887-09ab-a201-deea-d026c1233dbe",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-11-07T16:43:43-05:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "91df2f28-ffa8-b02d-775a-3957904b4c0b",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.4,
+      "last_visit": "2025-06-13T21:54:07-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "6794d027-f7b3-6a81-b92f-764a4c818b4c",
+      "attributed_pcp": "Practitioner/a859b504-8560-3619-b6eb-244cd9e29eb9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-02-14T04:21:26-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f359f540-2dd5-6c29-1918-94dd4d16f71d",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "2a7a0cfb-d53a-ea85-6311-afbfaa134b17",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-01-16T05:16:33-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f037be08-4173-91a3-44ad-e99e33bbedd0",
+      "attributed_pcp": "Practitioner/06e97efa-5bf5-3e09-875f-cacc0cb8336c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-10-22T12:17:29-04:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ee184870-fa0b-5fd4-e321-7b7fe244f99b",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "d265f626-b76d-c6a7-44cb-535dbfd3026e",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8571428571428571,
+      "last_visit": "2025-09-21T15:20:01-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "fc0bb26d-c601-1634-f6ca-f2cf36d9ae2e",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-07-03T14:46:57-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8b350aad-a347-2bbe-00ff-84d5df5a5d28",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "0607c45b-a2b8-2382-3747-5af5e265cb36",
+      "attributed_pcp": "Practitioner/a9de6434-e69d-372c-adc4-2df004eb0d77",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-05-15T06:18:42-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4ba45645-f44a-4b52-3561-068ffd7ece55",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8333333333333334,
+      "last_visit": "2025-09-28T03:12:03-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "227aa21a-4d4e-43fd-a269-5580585aaa09",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9411764705882353,
+      "last_visit": "2025-08-10T00:47:14-04:00",
+      "visit_count": 16,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "36096f1f-ac17-006d-6dff-e678ffb686f9",
+      "attributed_pcp": "Practitioner/ad6c2579-becf-34ce-9a60-54c3c3fc6363",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-10-11T15:42:27-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8141527d-9641-fc5b-d691-29815b63a420",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-08-02T10:26:37-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "77ee5f28-a400-1f6b-044e-148b105c64e3",
+      "attributed_pcp": "Practitioner/ad6c2579-becf-34ce-9a60-54c3c3fc6363",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-11-10T13:53:27-05:00",
+      "visit_count": 10,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "eef5cb55-f8cd-fe56-ebc6-7e13f99feed0",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.875,
+      "last_visit": "2025-08-11T21:02:01-04:00",
+      "visit_count": 14,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "22d6c0ee-678c-771b-10a8-d9531f661d5e",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-10-05T00:13:40-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1d88d379-3df7-4ee6-13da-f263cadcc187",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2024-12-22T03:57:16-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "26c1bb2f-ceaa-5d99-92df-f52d3a5c9d83",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "6960cf67-79e0-53fb-e9cb-be6c4e545fab",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "046f34ea-ee89-d17f-3333-c215591205f0",
+      "attributed_pcp": "Practitioner/58280450-f119-37a0-9963-5ccb4cd12c1a",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5789473684210527,
+      "last_visit": "2025-10-26T17:49:47-04:00",
+      "visit_count": 11,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "3a55238c-82a4-2a2d-094e-151710b007c5",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "ed1846e1-76ee-07a1-f130-f72b156c0e85",
+      "attributed_pcp": "Practitioner/5302809e-06a8-3205-bbbb-d9d0b3c35aee",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8581560283687943,
+      "last_visit": "2025-10-27T19:37:49-04:00",
+      "visit_count": 121,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "db2db150-c544-5399-c8fa-341095f81663",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "a73cb76a-e999-7d15-3874-fb7c9f04f7f7",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "5a98fe9c-d9a0-0492-2081-b9518ae5d7d1",
+      "attributed_pcp": "Practitioner/624c07d7-3760-3d51-941f-b58daf60a91e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-08-30T02:49:53-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "da15b50a-4b16-7235-c874-3720c38a8aa0",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "1f12ca90-9965-eba1-505b-54bedad13af4",
+      "attributed_pcp": "Practitioner/a859b504-8560-3619-b6eb-244cd9e29eb9",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-02-04T09:31:25-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "b7149805-40cc-f18c-470c-18c98fc252a6",
+      "attributed_pcp": "Practitioner/dfb2269f-9eae-33df-9015-2efc2af31a24",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-10-07T15:25:01-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "351c7b77-6fbb-e0af-c80d-af808a961b78",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2024-12-13T04:30:54-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "17c157ad-e6b6-7480-6adb-ce001b2be671",
+      "attributed_pcp": "Practitioner/782d2275-bdf6-3838-8ef1-f5e8f8d007bf",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-11-10T16:16:23-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2f08667a-cae8-927a-ab36-ddbe0ac86a17",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-04-08T22:17:48-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "35f486a8-a859-7dc5-1676-ee61809d9dde",
+      "attributed_pcp": "Practitioner/4a4fca92-982c-3910-976c-44d403783035",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-06-15T03:00:47-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4e71432d-9ee9-6d47-7efa-0c9a82c7ed34",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.4,
+      "last_visit": "2025-05-31T05:14:38-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "0c718833-95ad-8ccb-b615-9b76fd24bc5f",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-05-14T14:24:20-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "7b452f49-6805-03ad-c510-9a4e2588d953",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-11-01T05:23:38-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "3a80e3dd-ad59-fa47-2f7c-380c80a02f9f",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8333333333333334,
+      "last_visit": "2025-10-20T12:58:42-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "016f2e00-5b56-e9ac-efa3-5d9f8746f984",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-06-29T01:05:47-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "65b887c3-bd33-d180-dec2-70a8e96a18e5",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6511627906976745,
+      "last_visit": "2025-11-14T20:00:25-05:00",
+      "visit_count": 28,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f4531da5-9896-8bae-fda9-85a4da5f2b28",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "b82ac197-48fb-85f3-3f2e-ad5211019fdd",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "1f3786c1-240b-a226-d214-8575169ad00b",
+      "attributed_pcp": "Practitioner/782d2275-bdf6-3838-8ef1-f5e8f8d007bf",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-06-25T23:41:36-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "04e6f161-4dcc-2292-d575-77780d4132ff",
+      "attributed_pcp": "Practitioner/332875ad-d34a-3f8e-af24-1ab7eff0775e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-08-28T00:52:38-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e1629730-a935-7f96-bed0-d6b260a8de8d",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2023-11-22T09:55:38-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ba6e6dbc-d5e4-2a37-e77b-239ad5aa304b",
+      "attributed_pcp": "Practitioner/dfb2269f-9eae-33df-9015-2efc2af31a24",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-10-31T13:24:15-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "c7a1299c-481a-7da4-70e1-c8c91d5fd9a1",
+      "attributed_pcp": "Practitioner/dfb2269f-9eae-33df-9015-2efc2af31a24",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-04-14T22:22:01-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2e0813b1-50e6-39b8-c3b7-3bc4f3eb1e6c",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2024-11-25T09:49:04-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1a7b1747-a7a6-709a-cccc-ee0141f069da",
+      "attributed_pcp": "Practitioner/4a4fca92-982c-3910-976c-44d403783035",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.375,
+      "last_visit": "2025-07-11T21:27:45-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "22ded217-5a4d-8dd0-b075-72b6852afda9",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "eabe8638-0a58-ab10-a30c-259629080ab3",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "4d7280a8-80ff-1cc8-41b8-4f081f2db373",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-08-20T15:52:53-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "73eb6e28-8d83-cfc3-2b90-3a26b4be0217",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.92,
+      "last_visit": "2025-10-29T00:22:56-04:00",
+      "visit_count": 23,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d693b4dd-f1dc-61fe-6a23-df920161d07c",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "db6c52b2-e695-6e48-a394-92310badf7db",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-08-29T11:36:05-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "fbdecde2-78f1-388b-6098-96929e91ad05",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2023-11-20T07:17:41-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ccacd8de-c7c4-164a-b9aa-664ff771ae60",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2024-11-28T11:22:59-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d60de2ea-a249-31fa-543e-7248846155d3",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-01-01T13:38:12-05:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "503fe6e6-9911-d02c-d385-f9b33cac23a7",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8461538461538461,
+      "last_visit": "2025-10-19T17:04:50-04:00",
+      "visit_count": 11,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "7566cb16-9a89-1d84-49b6-7a1ce378910d",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8666666666666667,
+      "last_visit": "2025-07-17T16:04:34-04:00",
+      "visit_count": 13,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "31c0c169-60e1-3517-7f26-76c896ac190b",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "853992ca-2fa5-4554-076d-669ace34ba11",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-10-15T20:41:15-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "5b8fcffb-3999-d851-c1d5-fc21d07bd704",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-03-03T08:27:27-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "baaa5672-6fb3-1683-acc3-9b357a8f3511",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "d149c887-b978-6188-2fa8-29f67cb1ddd2",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-09-07T21:20:28-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "25a5584a-ffaa-eb01-c179-e9365b1062d3",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "4c247e59-3c39-60b2-16ea-356fc7febb1e",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8181818181818182,
+      "last_visit": "2025-06-16T06:48:41-04:00",
+      "visit_count": 9,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "0804efba-f0c4-8878-02af-3f9b20a0e5a8",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-11-07T03:07:24-05:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "efd800dc-0628-3648-4121-c4dfeac390c4",
+      "attributed_pcp": "Practitioner/782d2275-bdf6-3838-8ef1-f5e8f8d007bf",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-03-11T23:10:25-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "3e1f4421-a846-775b-68dd-00b388306a54",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-10-23T16:56:24-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8a56a4cc-d904-e756-7ebf-c555b3afbb32",
+      "attributed_pcp": "Practitioner/a79ff414-f036-3e89-8eb1-2985baebc093",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-01-08T02:54:37-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e36407f9-236f-6219-5301-596e2ea5450d",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2024-11-27T15:23:54-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "9290f0ac-c22d-6d29-91cc-47cc6ec8a2f5",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2025-07-18T22:24:56-04:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2ae97fe6-3912-92f6-34bc-1706168d1a3d",
+      "attributed_pcp": "Practitioner/4a4fca92-982c-3910-976c-44d403783035",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.56,
+      "last_visit": "2025-08-31T07:18:20-04:00",
+      "visit_count": 14,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "1f4456a7-15c1-ca8b-3fc7-cafbd4e94453",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9047619047619048,
+      "last_visit": "2025-09-21T05:19:57-04:00",
+      "visit_count": 19,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "c2fe683a-6ff7-7ebd-f74c-40cbbf1dc9d4",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "cc7ddad4-03e0-5b9c-34e0-d14ca6c7785e",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-04-21T16:48:22-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "582fa678-ef37-8502-26bf-7279bfaa5df3",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "e47b843f-f48d-e2cf-0daa-332d8954eda8",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9090909090909091,
+      "last_visit": "2025-06-02T22:11:13-04:00",
+      "visit_count": 10,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "751037b5-15f2-6fd9-7ee3-09f6bd2cb9fd",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8,
+      "last_visit": "2024-09-23T00:09:16-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d8b618ea-91c5-d8f3-ed8e-57a1f7ef7638",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "8307f470-c54f-dcc2-f6be-18505fdd9217",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8823529411764706,
+      "last_visit": "2025-11-16T15:10:29-05:00",
+      "visit_count": 15,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "41d73a18-0355-698f-5f46-11471076a8be",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-02-10T23:55:52-05:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2f51baf7-7688-2824-23b5-996f7ebcc4c1",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-11-04T07:59:01-05:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "3c2ec3b1-063f-72f8-4602-7635092e0bb3",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9333333333333333,
+      "last_visit": "2025-05-25T19:46:34-04:00",
+      "visit_count": 14,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "11c1ef0d-79c7-4dfc-db8c-045c71bc445c",
+      "attributed_pcp": "Practitioner/782d2275-bdf6-3838-8ef1-f5e8f8d007bf",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-11-18T10:25:55-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ab7f47f2-0c1d-c3bf-e0cc-cf3469a10eb5",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "3ee53033-8c0d-2686-66c0-6b0538566f3f",
+      "attributed_pcp": "Practitioner/dfb2269f-9eae-33df-9015-2efc2af31a24",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-04-11T22:32:17-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "2d05d7ec-ca5e-a1f8-d13e-3d993bb19ac3",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2024-11-30T14:28:52-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "07b5f5ae-1750-7b7f-0c47-94fe4b30b28b",
+      "attributed_pcp": "Practitioner/073ccb73-e9f2-3c49-8691-76724c1be768",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6388888888888888,
+      "last_visit": "2025-09-03T01:00:21-04:00",
+      "visit_count": 23,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "a80e3d3d-dbe0-b0f8-8a9d-7b1a2e121030",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "00e57d20-dc30-0a5f-7bd5-48ea9faf3104",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-05-04T09:15:24-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "add9dc9d-6d9f-faba-51d6-ee012158c162",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-08-27T02:22:41-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "cbc89694-5250-6908-26f6-5a0e302e2494",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-02-09T07:42:27-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "dd59aedb-5b0e-4f48-5ed7-4d9ea8506bcb",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "b465da3f-22a1-dec8-6e34-adfd3ded0ec8",
+      "attributed_pcp": "Practitioner/e9fb48da-90af-3342-b473-6cfb97dd053e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.4666666666666667,
+      "last_visit": "2025-08-23T17:01:39-04:00",
+      "visit_count": 7,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "73390441-dae2-331c-f0a8-c72c24ebc6dd",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "363f1a71-f871-cac9-62d0-09885080461d",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-11-17T23:54:12-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "3a5fc260-0424-a8c8-cdd5-8fdf82a27637",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "04a42974-1461-237c-bf57-77a749a552db",
+      "attributed_pcp": "Practitioner/332875ad-d34a-3f8e-af24-1ab7eff0775e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-11-02T15:52:00-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "233afeac-538a-9322-c5dd-6079e15dcb17",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "ba14cbbf-7713-50c0-6bd5-357ad3fba619",
+      "attributed_pcp": "Practitioner/dfb2269f-9eae-33df-9015-2efc2af31a24",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-10-29T16:36:58-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "432dd15f-09b8-353c-c388-a8c50d4b9e89",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "19fe15e9-20cf-11ad-1f5a-1a81c4b99a11",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "2e7a2657-78f9-e5ca-0aa1-4bc6c7bbbb68",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9699570815450643,
+      "last_visit": "2025-11-11T11:19:34-05:00",
+      "visit_count": 226,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "cc294b7a-ccc8-0ad9-213b-b7a8646b2aa6",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9444444444444444,
+      "last_visit": "2025-06-19T17:37:31-04:00",
+      "visit_count": 17,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "c993e93d-74e1-b81f-1a95-225e51e08c1e",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "91044b60-3e47-68bb-a0a3-a231a708fd97",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.75,
+      "last_visit": "2025-02-03T10:18:15-05:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8e2ef92c-8a40-22df-d84a-5060a9cf15b5",
+      "attributed_pcp": "Practitioner/782d2275-bdf6-3838-8ef1-f5e8f8d007bf",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2024-12-06T23:22:46-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ad608432-7f4c-f039-6a11-e8bd85dece0b",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "ecc6899e-6a47-87ed-f449-b3419b39b1e8",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-10-30T15:13:36-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "ff009046-beb2-a7b1-4156-554d81181990",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2024-12-15T14:28:11-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4b58d4a9-ac7a-95f0-2655-c22a69cb58f6",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-08-28T00:03:47-04:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "f8294943-5d40-ba68-7789-42f0382c01bc",
+      "attributed_pcp": "Practitioner/9080323a-f2e1-33cf-9faf-a6ce0e3eaaa5",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-11-14T22:59:55-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "a6a0e540-1911-f4ae-6e92-29a3fef33339",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-02-22T19:49:50-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "38f21133-cae5-5ee7-35fe-ea168107d3df",
+      "attributed_pcp": "Practitioner/782d2275-bdf6-3838-8ef1-f5e8f8d007bf",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-12-05T13:20:10-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "03e1f250-b3af-e8c8-0f26-23213b5b3bb6",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8888888888888888,
+      "last_visit": "2025-10-24T15:17:34-04:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d0520b80-374c-835a-71db-96041501bfda",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8333333333333334,
+      "last_visit": "2025-10-29T03:10:54-04:00",
+      "visit_count": 10,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "784c018c-eaff-b19b-1975-0835d9c346de",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9,
+      "last_visit": "2025-10-12T00:53:53-04:00",
+      "visit_count": 9,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "05fd91e5-cfa1-b3dd-2da0-8a64e9aaedcf",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.8333333333333334,
+      "last_visit": "2025-10-06T08:41:22-04:00",
+      "visit_count": 15,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "52525acf-c677-42cf-3e38-a464fc4428e0",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.7272727272727273,
+      "last_visit": "2025-09-12T10:57:44-04:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "a1849760-7cdc-a04b-13c8-7a89e21a766f",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "914c115f-54d4-efc1-ccf9-f8a7e6a14418",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "83681a59-9310-0040-422d-1f48e9f02427",
+      "attributed_pcp": "Practitioner/ef2a5314-6a63-349e-aef9-149c413984ca",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.46938775510204084,
+      "last_visit": "2025-11-04T21:49:52-05:00",
+      "visit_count": 23,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4cbbaceb-7cde-1910-f85e-4e535a7d4093",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "9e81a24e-4dca-2598-a834-57784e7aa91d",
+      "attributed_pcp": "Practitioner/a79ff414-f036-3e89-8eb1-2985baebc093",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-04-01T21:40:10-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "30507e10-1e5a-9697-14a2-7696f6850f49",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-11-17T23:37:57-05:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "173e92c3-3f72-8d58-d0c0-e68e07987be8",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9411764705882353,
+      "last_visit": "2025-05-19T14:32:06-04:00",
+      "visit_count": 16,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4ea830e4-c063-3bfb-b895-9de7ee149046",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-07-11T21:54:42-04:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "b50519b0-209a-633c-89e6-a6a15cd86c9c",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "05c59441-d6af-ff7a-726e-022881ba2825",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5555555555555556,
+      "last_visit": "2025-10-24T22:18:33-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "baa40456-9384-3c0f-7f9c-c619dc13c1d4",
+      "attributed_pcp": "Practitioner/2922a717-5d7d-38ab-94e9-d07216d573f4",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-10-08T10:31:31-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8d770f5b-c106-52da-e7c8-ba2c9125e8ac",
+      "attributed_pcp": "Practitioner/782d2275-bdf6-3838-8ef1-f5e8f8d007bf",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-07-14T22:16:42-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "e1a27a5e-e6eb-6754-d52c-4d59937018c8",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "97edff81-7a4e-11de-fd2a-d84998e0cd7d",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "14715efc-2687-6114-6737-c96558638f02",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2024-11-22T16:48:19-05:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "7944c56b-5f25-8cd0-f3a5-b8385bfeb981",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-01-19T21:49:33-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "cb6093cf-b06d-2c0a-72f1-139d8ec6f3b6",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "aa11b567-b4a0-3f58-04bd-418d1ca36eab",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.7142857142857143,
+      "last_visit": "2024-12-19T18:12:30-05:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d68f53ba-24e0-5360-e2e2-4b89eb072c44",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-07-31T06:29:26-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "c9a76c9c-8f49-7d2b-b74b-8b55bb58000e",
+      "attributed_pcp": "Practitioner/dfb2269f-9eae-33df-9015-2efc2af31a24",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-10-02T06:32:45-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "00cd6ab7-8973-f8cd-852e-21776b254b39",
+      "attributed_pcp": "Practitioner/4a4fca92-982c-3910-976c-44d403783035",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.4166666666666667,
+      "last_visit": "2025-08-03T05:59:52-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "7f4e507a-23f1-e861-4d54-0514afb44a7c",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2024-07-22T01:27:37-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "22607599-f376-937b-58a5-319a7f903065",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "42c72447-e08e-b884-5a64-d77c597122cc",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.9166666666666666,
+      "last_visit": "2025-10-24T00:57:16-04:00",
+      "visit_count": 11,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "8cdfd010-a3c5-526b-af75-3356e8c71273",
+      "attributed_pcp": "Practitioner/54d03c17-2b49-35b6-966b-b01dc8c212ac",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-07-25T10:45:53-04:00",
+      "visit_count": 6,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "d00de438-0640-d189-f376-a13b29880a22",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "fd4a266e-092e-bc87-7bf3-08fac5c0d324",
+      "attributed_pcp": "Practitioner/782d2275-bdf6-3838-8ef1-f5e8f8d007bf",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2024-11-22T18:41:05-05:00",
+      "visit_count": 1,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "9e6595e0-3b65-ff8f-c96c-5dec5baef798",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "01238737-e7e3-1ec3-6e28-a0a605b5e60e",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-10-17T21:41:44-04:00",
+      "visit_count": 8,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "05db5d03-aab9-0642-1758-2ba25108e6c0",
+      "attributed_pcp": "Practitioner/dfb2269f-9eae-33df-9015-2efc2af31a24",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-10-20T02:49:15-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "3774a4fd-0711-0837-839a-e34bde1768d6",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6842105263157895,
+      "last_visit": "2025-11-09T20:26:48-05:00",
+      "visit_count": 13,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "eed9f7ef-726c-1d7d-fd08-817475c5c60f",
+      "attributed_pcp": "Practitioner/4a4fca92-982c-3910-976c-44d403783035",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.29411764705882354,
+      "last_visit": "2025-10-18T22:03:05-04:00",
+      "visit_count": 5,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "4e2ffaf8-99a7-35be-1986-8b9b87b849a9",
+      "attributed_pcp": "Practitioner/332875ad-d34a-3f8e-af24-1ab7eff0775e",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6666666666666666,
+      "last_visit": "2025-08-03T18:07:04-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "31430400-d2fd-6972-253c-02c06c9f3450",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "a2ef46fa-bedb-227e-f3dd-bbc57f895006",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-09-18T13:07:18-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "341c870c-664c-6a5b-a249-8f81cc60ce59",
+      "attributed_pcp": "Practitioner/823e87b9-8544-3d0e-8eb3-dd487a0ac9a8",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.5,
+      "last_visit": "2025-01-19T18:54:37-05:00",
+      "visit_count": 4,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "347d62f7-05a2-5422-1e6c-b5c3a6d7be1b",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "5d3e57f7-883d-0435-6906-d4f1fdc97336",
+      "attributed_pcp": "Practitioner/7e3ce523-8272-30b9-a088-5181a725e55c",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 1.0,
+      "last_visit": "2025-09-24T14:38:54-04:00",
+      "visit_count": 2,
+      "status": "ATTRIBUTED"
+    },
+    {
+      "patient_id": "93f0cc6e-402f-9b4f-c59c-1d1377429269",
+      "attributed_pcp": null,
+      "attribution_method": "NO_VISITS",
+      "confidence": 0,
+      "last_visit": null,
+      "visit_count": 0,
+      "status": "UNATTRIBUTED"
+    },
+    {
+      "patient_id": "bb330cc1-0a09-50d3-d03e-bb1def7877e5",
+      "attributed_pcp": "Practitioner/91397656-df78-3261-8eeb-3bc6b8513694",
+      "attribution_method": "PLURALITY_24_MONTHS",
+      "confidence": 0.6,
+      "last_visit": "2025-03-14T05:58:45-04:00",
+      "visit_count": 3,
+      "status": "ATTRIBUTED"
+    }
+  ]
+}

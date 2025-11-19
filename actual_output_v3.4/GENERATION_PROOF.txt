@@ -1,0 +1,483 @@
+Command: ./run_synthea -c synthea.properties Wisconsin
+Timestamp: 2025-11-19 12:16:37.950800
+Output:
+> Task :versionTxt
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :run
+Scanned 89 modules and 157 submodules.
+Loading submodule modules/allergies/allergy_panel.json
+Loading submodule modules/allergies/drug_allergy_incidence.json
+Loading submodule modules/allergies/environmental_allergy_incidence.json
+Loading submodule modules/allergies/food_allergy_incidence.json
+Loading submodule modules/allergies/immunotherapy.json
+Loading submodule modules/allergies/outgrow_env_allergies.json
+Loading submodule modules/allergies/outgrow_food_allergies.json
+Loading submodule modules/allergies/severe_allergic_reaction.json
+Loading submodule modules/anemia/anemia_sub.json
+Loading submodule modules/breast_cancer/chemotherapy_breast.json
+Loading submodule modules/breast_cancer/hormone_diagnosis.json
+Loading submodule modules/breast_cancer/hormonetherapy_breast.json
+Loading submodule modules/breast_cancer/surgery_therapy_breast.json
+Loading submodule modules/breast_cancer/tnm_diagnosis.json
+Loading submodule modules/contraceptives/clear_contraceptive.json
+Loading submodule modules/contraceptives/female_sterilization.json
+Loading submodule modules/contraceptives/implant_contraceptive.json
+Loading submodule modules/contraceptives/injectable_contraceptive.json
+Loading submodule modules/contraceptives/intrauterine_device.json
+Loading submodule modules/contraceptives/male_sterilization.json
+Loading submodule modules/contraceptives/oral_contraceptive.json
+Loading submodule modules/contraceptives/patch_contraceptive.json
+Loading submodule modules/contraceptives/ring_contraceptive.json
+Loading submodule modules/covid19/admission.json
+Loading submodule modules/covid19/determine_risk.json
+Loading Lookup Table: covid-19-severity-outcomes.csv
+Loading Lookup Table: covid-19-survival-outcomes.csv
+Loading submodule modules/covid19/diagnose_bacterial_infection.json
+Loading submodule modules/covid19/diagnose_blood_clot.json
+Loading submodule modules/covid19/end_outcomes.json
+Loading submodule modules/covid19/end_symptoms.json
+Loading submodule modules/covid19/infection.json
+Loading submodule modules/covid19/measurements_daily.json
+Loading submodule modules/covid19/measurements_frequent.json
+Loading submodule modules/covid19/measurements_vitals.json
+Loading submodule modules/covid19/medications.json
+Loading submodule modules/covid19/nonsurvivor_lab_values.json
+Loading submodule modules/covid19/outcomes.json
+Loading submodule modules/covid19/supplies_hospitalization.json
+Loading submodule modules/covid19/supplies_icu.json
+Loading submodule modules/covid19/supplies_intubation.json
+Loading submodule modules/covid19/survivor_lab_values.json
+Loading submodule modules/covid19/symptoms.json
+Loading submodule modules/covid19/treat_blood_clot.json
+Loading submodule modules/dermatitis/early_moderate_eczema_obs.json
+Loading submodule modules/dermatitis/early_severe_eczema_obs.json
+Loading submodule modules/dermatitis/mid_moderate_eczema_obs.json
+Loading submodule modules/dermatitis/mid_severe_eczema_obs.json
+Loading submodule modules/dermatitis/moderate_cd_obs.json
+Loading submodule modules/dermatitis/severe_cd_obs.json
+Loading submodule modules/dme/wheelchair.json
+Loading submodule modules/dme/wheelchair_end.json
+Loading submodule modules/encounter/anxiety_screening.json
+Loading submodule modules/encounter/depression_screening.json
+Loading submodule modules/encounter/fall_risk_screening.json
+Loading submodule modules/encounter/hark_screening.json
+Loading submodule modules/encounter/hospital_basic_labs.json
+Loading submodule modules/encounter/sdoh_hrsn.json
+Loading submodule modules/encounter/substance_use_screening.json
+Loading submodule modules/encounter/vitals.json
+Loading submodule modules/eye/intraocular_pressure.json
+Loading submodule modules/eye/ophthalmic_progression.json
+Loading submodule modules/eye/ophthalmic_tomography.json
+Loading submodule modules/eye/visual_acuity.json
+Loading submodule modules/heart/acs_anticoagulant.json
+Loading submodule modules/heart/acs_antiplatelet.json
+Loading submodule modules/heart/acs_arrival_medications.json
+Loading submodule modules/heart/acs_discharge_meds.json
+Loading submodule modules/heart/avrr/antithrombotic.json
+Loading submodule modules/heart/avrr/avrr_referral.json
+Loading submodule modules/heart/avrr/intraop_meds_blood.json
+Loading submodule modules/heart/avrr/outcomes.json
+Loading submodule modules/heart/avrr/preoperative.json
+Loading submodule modules/heart/avrr/savrr_operation.json
+Loading submodule modules/heart/avrr/savrr_postop.json
+Loading submodule modules/heart/avrr/sequence.json
+Loading submodule modules/heart/cabg/cabg_referral.json
+Loading submodule modules/heart/cabg/details.json
+Loading Lookup Table: cabg_details_operative_approach.csv
+Loading Lookup Table: cabg_details_num_grafts.csv
+Loading Lookup Table: cabg_details_num_art_cond.csv
+Loading submodule modules/heart/cabg/icu_meds_devices.json
+Loading submodule modules/heart/cabg/labs_common.json
+Loading submodule modules/heart/cabg/operation.json
+Loading submodule modules/heart/cabg/or_intraop.json
+Loading submodule modules/heart/cabg/or_labs_meds.json
+Loading submodule modules/heart/cabg/outcomes.json
+Loading submodule modules/heart/cabg/postop.json
+Loading submodule modules/heart/cabg/postop_blood.json
+Loading submodule modules/heart/cabg/preoperative.json
+Loading submodule modules/heart/cabg_sequence.json
+Loading submodule modules/heart/cardiac_labs.json
+Loading submodule modules/heart/chf_lab_work.json
+Loading submodule modules/heart/chf_lvad.json
+Loading submodule modules/heart/chf_meds.json
+Loading submodule modules/heart/chf_meds_hfmef.json
+Loading submodule modules/heart/chf_meds_hfref_nyha2.json
+Loading submodule modules/heart/chf_meds_hfref_nyha3.json
+Loading submodule modules/heart/chf_meds_hfref_nyha4.json
+Loading submodule modules/heart/chf_nyha_panel.json
+Loading submodule modules/heart/chf_transplant.json
+Loading submodule modules/heart/nsteacs_pathway.json
+Loading submodule modules/heart/operative_status.json
+Loading submodule modules/heart/or_blood.json
+Loading Lookup Table: or_blood_anemia_check.csv
+Loading Lookup Table: or_blood_platelet_check.csv
+Loading Lookup Table: or_blood_plasma_check.csv
+Loading submodule modules/heart/savrepair/operative_status.json
+Loading submodule modules/heart/savreplace/operative_status.json
+Loading submodule modules/heart/stemi_fibrinolytic.json
+Loading submodule modules/heart/stemi_pathway.json
+Loading submodule modules/heart/tavr/alt_access.json
+Loading submodule modules/heart/tavr/operation.json
+Loading submodule modules/heart/tavr/operative_status.json
+Loading submodule modules/heart/tavr/outcomes.json
+Loading submodule modules/heart/tavr/postop.json
+Loading submodule modules/heart/vhd_risks.json
+Loading submodule modules/hiv/art_sequence.json
+Loading submodule modules/hiv/art_sequence_1987_1994.json
+Loading submodule modules/hiv/art_sequence_1995_1996.json
+Loading submodule modules/hiv/art_sequence_1997_2002.json
+Loading submodule modules/hiv/art_sequence_2003_2005.json
+Loading submodule modules/hiv/art_sequence_2006_2014.json
+Loading submodule modules/hiv/art_sequence_2015.json
+Loading submodule modules/hiv/hiv_baseline.json
+Loading submodule modules/hiv/hiv_cd4.json
+Loading Lookup Table: hiv_stage.csv
+Loading submodule modules/hiv/hiv_oi_prophylaxis.json
+Loading submodule modules/hiv/hiv_screening.json
+Loading submodule modules/hiv/hiv_viral_load.json
+Loading submodule modules/hiv/stop_all_art_meds.json
+Loading submodule modules/injuries/broken_jaw.json
+Loading submodule modules/lung_cancer/lung_cancer_probabilities.json
+Loading submodule modules/medications/ace_arb.json
+Loading Lookup Table: ace_arb_ingredient_distribution.csv
+Loading Lookup Table: ace_arb_amlodipine_benazepril_product_distribution.csv
+Loading Lookup Table: ace_arb_benazepril_product_distribution.csv
+Loading Lookup Table: ace_arb_benazepril_hydrochlorothiazide_product_distribution.csv
+Loading Lookup Table: ace_arb_enalapril_product_distribution.csv
+Loading Lookup Table: ace_arb_hydrochlorothiazide_lisinopril_product_distribution.csv
+Loading Lookup Table: ace_arb_hydrochlorothiazide_losartan_product_distribution.csv
+Loading Lookup Table: ace_arb_hydrochlorothiazide_valsartan_product_distribution.csv
+Loading Lookup Table: ace_arb_irbesartan_product_distribution.csv
+Loading Lookup Table: ace_arb_lisinopril_product_distribution.csv
+Loading Lookup Table: ace_arb_losartan_product_distribution.csv
+Loading Lookup Table: ace_arb_quinapril_product_distribution.csv
+Loading Lookup Table: ace_arb_ramipril_product_distribution.csv
+Loading Lookup Table: ace_arb_sacubitril_valsartan_product_distribution.csv
+Loading Lookup Table: ace_arb_telmisartan_product_distribution.csv
+Loading Lookup Table: ace_arb_valsartan_product_distribution.csv
+Loading submodule modules/medications/beta_blocker.json
+Loading Lookup Table: beta_blocker_ingredient_distribution.csv
+Loading Lookup Table: beta_blocker_atenolol_product_distribution.csv
+Loading Lookup Table: beta_blocker_bisoprolol_product_distribution.csv
+Loading Lookup Table: beta_blocker_bisoprolol_hydrochlorothiazide_product_distribution.csv
+Loading Lookup Table: beta_blocker_carvedilol_product_distribution.csv
+Loading Lookup Table: beta_blocker_labetalol_product_distribution.csv
+Loading Lookup Table: beta_blocker_metoprolol_product_distribution.csv
+Loading Lookup Table: beta_blocker_nebivolol_product_distribution.csv
+Loading Lookup Table: beta_blocker_propranolol_product_distribution.csv
+Loading submodule modules/medications/ear_infection_antibiotic.json
+Loading submodule modules/medications/emergency_inhaler.json
+Loading Lookup Table: emergency_inhaler_ingredient_distribution.csv
+Loading Lookup Table: emergency_inhaler_albuterol_product_distribution.csv
+Loading Lookup Table: emergency_inhaler_levalbuterol_product_distribution.csv
+Loading submodule modules/medications/hypertension_medication.json
+Loading submodule modules/medications/maintenance_inhaler.json
+Loading Lookup Table: maintenance_inhaler_ingredient_distribution.csv
+Loading Lookup Table: maintenance_inhaler_beclomethasone_product_distribution.csv
+Loading Lookup Table: maintenance_inhaler_budesonide_product_distribution.csv
+Loading Lookup Table: maintenance_inhaler_fluticasone_product_distribution.csv
+Loading Lookup Table: maintenance_inhaler_mometasone_product_distribution.csv
+Loading submodule modules/medications/moderate_opioid_pain_reliever.json
+Loading submodule modules/medications/otc_antihistamine.json
+Loading submodule modules/medications/otc_pain_reliever.json
+Loading submodule modules/medications/statin.json
+Loading Lookup Table: statin_ingredient_distribution.csv
+Loading Lookup Table: statin_atorvastatin_product_distribution.csv
+Loading Lookup Table: statin_ezetimibe_simvastatin_product_distribution.csv
+Loading Lookup Table: statin_lovastatin_product_distribution.csv
+Loading Lookup Table: statin_pitavastatin_product_distribution.csv
+Loading Lookup Table: statin_pravastatin_product_distribution.csv
+Loading Lookup Table: statin_rosuvastatin_product_distribution.csv
+Loading Lookup Table: statin_simvastatin_product_distribution.csv
+Loading submodule modules/medications/strong_opioid_pain_reliever.json
+Loading submodule modules/metabolic_syndrome/amputations.json
+Loading submodule modules/metabolic_syndrome/diabetic_retinopathy_diagnoses.json
+Loading submodule modules/metabolic_syndrome/diabetic_retinopathy_progression.json
+Loading submodule modules/metabolic_syndrome/dme_supplies.json
+Loading submodule modules/metabolic_syndrome/kidney_conditions.json
+Loading submodule modules/metabolic_syndrome/medications.json
+Loading submodule modules/snf/skilled_nursing_facility.json
+Loading submodule modules/surgery/general_anesthesia.json
+Loading submodule modules/total_joint_replacement/functional_status_assessments.json
+Loading submodule modules/uti/abx_tx.json
+Loading submodule modules/uti/ambulatory_eval.json
+Loading submodule modules/uti/ambulatory_path.json
+Loading submodule modules/uti/ed_bundle.json
+Loading submodule modules/uti/ed_eval.json
+Loading submodule modules/uti/ed_path.json
+Loading submodule modules/uti/gu_pregnancy_check.json
+Loading submodule modules/uti/hpi.json
+Loading submodule modules/uti/lab_follow_up.json
+Loading submodule modules/uti/labs.json
+Loading submodule modules/uti/telemed_path.json
+Loading submodule modules/veterans/veteran_suicide_probabilities.json
+Loading submodule modules/weight_loss/mend_week.json
+Loading module modules/acute_myeloid_leukemia.json
+Loading Lookup Table: AML.csv
+Loading module modules/allergic_rhinitis.json
+Loading module modules/allergies.json
+Loading module modules/anemia___unknown_etiology.json
+Loading module modules/appendicitis.json
+Loading module modules/asthma.json
+Loading module modules/atopy.json
+Loading module modules/atrial_fibrillation.json
+Loading module modules/attention_deficit_disorder.json
+Loading module modules/bone_marrow_transplant.json
+Loading module modules/breast_cancer.json
+Loading module modules/bronchitis.json
+Loading module modules/cerebral_palsy.json
+Loading module modules/chronic_kidney_disease.json
+Loading module modules/colorectal_cancer.json
+Loading module modules/congestive_heart_failure.json
+Loading module modules/contraceptive_maintenance.json
+Loading module modules/contraceptives.json
+Loading module modules/copd.json
+Loading module modules/covid19.json
+Loading Lookup Table: covid19_prob.csv
+Loading module modules/cystic_fibrosis.json
+Loading module modules/dementia.json
+Loading module modules/dental_and_oral_examination.json
+Loading module modules/dentures.json
+Loading module modules/dermatitis.json
+Loading module modules/diabetic_retinopathy_treatment.json
+Loading Lookup Table: diabetic_retinopathy_followup.csv
+Loading module modules/dialysis.json
+Loading module modules/ear_infections.json
+Loading module modules/epilepsy.json
+Loading module modules/female_reproduction.json
+Loading module modules/fibromyalgia.json
+Loading module modules/food_allergies.json
+Loading module modules/gallstones.json
+Loading module modules/gout.json
+Loading module modules/hiv_care.json
+Loading Lookup Table: hiv_care.csv
+Loading module modules/hiv_diagnosis.json
+Loading Lookup Table: hiv_mortality_later.csv
+Loading Lookup Table: hiv_mortality_early.csv
+Loading Lookup Table: hiv_mortality_very_early.csv
+Loading Lookup Table: hiv_diagnosis_early.csv
+Loading Lookup Table: hiv_diagnosis_later.csv
+Loading module modules/home_health_treatment.json
+Loading module modules/home_hospice_snf.json
+Loading module modules/homelessness.json
+Loading module modules/hospice_treatment.json
+Loading module modules/hypertension.json
+Loading module modules/hypothyroidism.json
+Loading module modules/injuries.json
+Loading module modules/kidney_transplant.json
+Loading module modules/lung_cancer.json
+Loading module modules/lupus.json
+Loading module modules/mTBI.json
+Loading module modules/med_rec.json
+Loading module modules/mend_program.json
+Loading module modules/metabolic_syndrome_care.json
+Loading module modules/metabolic_syndrome_disease.json
+Loading module modules/myocardial_infarction.json
+Loading module modules/opioid_addiction.json
+Loading module modules/osteoarthritis.json
+Loading module modules/osteoporosis.json
+Loading module modules/pregnancy.json
+Loading module modules/prescribing_opioids_for_chronic_pain_and_treatment_of_oud.json
+Loading module modules/rheumatoid_arthritis.json
+Loading module modules/self_harm.json
+Loading module modules/sepsis.json
+Loading module modules/sexual_activity.json
+Loading module modules/sinusitis.json
+Loading module modules/sleep_apnea.json
+Loading module modules/sore_throat.json
+Loading module modules/spina_bifida.json
+Loading module modules/stable_ischemic_heart_disease.json
+Loading module modules/stroke.json
+Loading module modules/total_joint_replacement.json
+Loading module modules/trigger_bone_marrow_transplant.json
+Loading module modules/urinary_tract_infections.json
+Loading Lookup Table: uti.csv
+Loading Lookup Table: uti_recurrence.csv
+Loading module modules/veteran.json
+Loading module modules/veteran_hyperlipidemia.json
+Loading module modules/veteran_lung_cancer.json
+Loading module modules/veteran_mdd.json
+Loading module modules/veteran_prostate_cancer.json
+Loading module modules/veteran_ptsd.json
+Loading module modules/veteran_self_harm.json
+Loading module modules/veteran_substance_abuse_conditions.json
+Loading module modules/veteran_substance_abuse_treatment.json
+Loading module modules/vhd_aortic.json
+Loading Lookup Table: vhd_as.csv
+Loading Lookup Table: vhd_ar.csv
+Loading module modules/vhd_mitral.json
+Loading Lookup Table: vhd_mr.csv
+Loading Lookup Table: vhd_ms.csv
+Loading module modules/vhd_pulmonic.json
+Loading Lookup Table: vhd_ps.csv
+Loading Lookup Table: vhd_pr.csv
+Loading module modules/vhd_tricuspid.json
+Loading Lookup Table: vhd_tr.csv
+Loading Lookup Table: vhd_ts.csv
+Loading module modules/wellness_encounters.json
+Running with options:
+Population: 100
+Seed: 1763572587974
+Provider Seed:1763572587974
+Reference Time: 1763572587974
+Location: Wisconsin
+Min Age: 0
+Max Age: 140
+8 -- Remedios388 Deckow585 (5 y/o F) Madison, Wisconsin  (7331)
+2 -- Porter490 Davis923 (6 y/o M) Madison, Wisconsin  (8893)
+12 -- Benton624 Ferry570 (7 y/o M) Janesville, Wisconsin  (9617)
+10 -- Laraine204 Macejkovic424 (9 y/o F) Madison, Wisconsin  (12123)
+7 -- Jewel43 Jaskolski867 (11 y/o M) Madison, Wisconsin  (14885)
+11 -- Maurita219 Towne435 (12 y/o F) Janesville, Wisconsin  (17114)
+6 -- Toni630 Kilback373 (14 y/o F) Juneau, Wisconsin  (19379)
+5 -- Maurice742 Bogisich202 (19 y/o M) Dodgeville, Wisconsin  (26023)
+1 -- Lore422 Waelchi213 (40 y/o F) Madison, Wisconsin  (56451)
+14 -- Sharonda198 Yen770 Ebert178 (48 y/o F) Madison, Wisconsin  (66255)
+3 -- Georgette866 Vina438 Hilll811 (58 y/o F) Madison, Wisconsin DECEASED (119428)
+4 -- Virginia437 Venessa867 Sauer652 (55 y/o F) Madison, Wisconsin DECEASED (75534)
+13 -- Alfred550 Schimmel440 (78 y/o M) Baraboo, Wisconsin  (107957)
+9 -- Kristopher775 Balistreri607 (85 y/o M) Madison, Wisconsin  (126244)
+17 -- Orlando897 Jacobs452 (2 y/o M) Monroe, Wisconsin  (3808)
+15 -- Joaquin141 Reichel38 (30 y/o M) Madison, Wisconsin  (40393)
+18 -- Earle679 Ondricka197 (26 y/o M) Madison, Wisconsin  (35059)
+19 -- Carol737 Kulas532 (20 y/o M) Madison, Wisconsin  (27745)
+20 -- Latarsha812 Odilia72 Cole117 (48 y/o F) Janesville, Wisconsin  (64887)
+16 -- Graham902 Stehr398 (50 y/o M) Portage, Wisconsin  (70888)
+22 -- Milan77 Gutmann970 (30 y/o M) Janesville, Wisconsin DECEASED (43612)
+21 -- Winifred736 Sauer652 (52 y/o F) Madison, Wisconsin DECEASED (72754)
+23 -- Tami145 Fritsch593 (22 y/o F) Madison, Wisconsin  (30908)
+24 -- Evelia928 Kunze215 (20 y/o F) Madison, Wisconsin  (27278)
+25 -- Elwood28 Wuckert783 (24 y/o M) Janesville, Wisconsin  (33155)
+30 -- Vernia453 Spinka232 (15 y/o F) Madison, Wisconsin  (20509)
+28 -- Elly836 Lindsay928 Little434 (30 y/o F) Fort Atkinson, Wisconsin  (40848)
+4 -- Glenda787 Jewel43 Ullrich385 (68 y/o F) Madison, Wisconsin  (95095)
+27 -- Carolyne559 Taina903 Marvin195 (46 y/o F) Madison, Wisconsin  (65418)
+29 -- Kalyn451 Mitchell808 Heller342 (56 y/o F) Madison, Wisconsin  (78321)
+31 -- Sachiko982 Legros616 (26 y/o F) Fort Atkinson, Wisconsin  (38219)
+26 -- Delora619 Raynor401 (97 y/o F) Janesville, Wisconsin DECEASED (141563)
+38 -- Shera199 Satterfield305 (14 y/o F) Madison, Wisconsin  (19526)
+34 -- Kelly223 Windler79 (42 y/o M) Madison, Wisconsin  (57331)
+22 -- Fidel864 Spencer878 (55 y/o M) Janesville, Wisconsin DECEASED (76844)
+35 -- Wilma646 Sandie760 Grimes165 (52 y/o F) Madison, Wisconsin  (71173)
+33 -- Sammy219 Abbott774 (61 y/o M) Janesville, Wisconsin DECEASED (83300)
+21 -- Delilah659 Larue605 Wiegand701 (70 y/o F) Madison, Wisconsin  (98943)
+39 -- Shelley12 Lehner980 (20 y/o F) Madison, Wisconsin  (28086)
+40 -- Aline709 Williamson769 (12 y/o F) Madison, Wisconsin  (16974)
+36 -- Enola75 Herman763 (61 y/o F) Madison, Wisconsin  (89687)
+32 -- Daniel959 Tony646 Reynolds644 (80 y/o F) Juneau, Wisconsin DECEASED (113068)
+41 -- Devora529 Kassulke119 (22 y/o F) Monroe, Wisconsin  (30903)
+37 -- Tamekia382 Shannan727 Daniel959 (70 y/o F) Dodgeville, Wisconsin  (100836)
+42 -- Jame231 Emard19 (35 y/o M) Madison, Wisconsin  (48763)
+45 -- Rosario163 Ávila241 (13 y/o F) Madison, Wisconsin  (18527)
+44 -- Darlena95 Breitenberg711 (18 y/o F) Madison, Wisconsin DECEASED (27275)
+43 -- Andrés117 Soria950 (60 y/o M) Juneau, Wisconsin  (81405)
+49 -- Keven605 Tillman293 (9 y/o M) Madison, Wisconsin DECEASED (13111)
+48 -- Valentine262 Feest103 (20 y/o M) Madison, Wisconsin  (27932)
+46 -- Lewis216 Shanahan202 (37 y/o M) Madison, Wisconsin  (50547)
+33 -- Marion502 Tremblay80 (51 y/o M) Janesville, Wisconsin DECEASED (74694)
+47 -- Inés791 Florencia449 Santillán790 (67 y/o F) Madison, Wisconsin  (97639)
+51 -- Alita891 Elin732 Wintheiser220 (31 y/o F) Madison, Wisconsin  (44358)
+22 -- Carl856 Gerlach374 (60 y/o M) Janesville, Wisconsin  (100185)
+50 -- Roseann182 Anastacia583 Kub800 (59 y/o F) Juneau, Wisconsin  (82152)
+44 -- Jennifer579 Melita22 Macejkovic424 (41 y/o F) Madison, Wisconsin  (57788)
+32 -- Flossie205 Ranee391 Carroll471 (61 y/o F) Juneau, Wisconsin DECEASED (86292)
+54 -- Andrea7 Kessler503 (40 y/o M) Madison, Wisconsin  (54098)
+52 -- Alton320 Sawayn19 (58 y/o M) Juneau, Wisconsin  (80784)
+49 -- Lance203 Koepp521 (64 y/o M) Madison, Wisconsin DECEASED (117727)
+53 -- Devon268 Friesen796 (68 y/o M) Madison, Wisconsin DECEASED (114086)
+55 -- Lovie151 Trantow673 (46 y/o F) Janesville, Wisconsin  (64517)
+26 -- Angelica442 Keebler762 (96 y/o F) Janesville, Wisconsin DECEASED (172205)
+56 -- Oleta341 Elwanda490 Bruen238 (36 y/o F) Janesville, Wisconsin  (51057)
+57 -- Elvera717 Toby274 Bosco882 (43 y/o F) Madison, Wisconsin  (58612)
+58 -- Zena758 Shanda945 Ernser583 (30 y/o F) Madison, Wisconsin  (42830)
+59 -- Ernie189 Abernathy524 (52 y/o M) Madison, Wisconsin  (76833)
+33 -- Quentin28 Wuckert783 (52 y/o M) Janesville, Wisconsin DECEASED (71832)
+61 -- Jerome176 Beer512 (59 y/o M) Janesville, Wisconsin  (79994)
+62 -- Eduardo902 Adams676 (52 y/o M) Juneau, Wisconsin DECEASED (85821)
+65 -- Stephenie799 Reinger292 (11 y/o F) Janesville, Wisconsin  (14960)
+60 -- Conception120 Braun514 (71 y/o F) Madison, Wisconsin  (111928)
+3 -- Lettie611 Alejandrina481 Herman763 (87 y/o F) Madison, Wisconsin  (121613)
+32 -- Alyse240 Kaley842 Davis923 (73 y/o F) Juneau, Wisconsin DECEASED (102393)
+63 -- Isreal8 Price929 (66 y/o M) Janesville, Wisconsin DECEASED (99695)
+64 -- Cyril535 Corwin846 (65 y/o M) Madison, Wisconsin DECEASED (88028)
+66 -- Salome647 Mann644 (22 y/o F) Madison, Wisconsin  (31215)
+68 -- Simona661 McKenzie376 (23 y/o F) Madison, Wisconsin  (31543)
+67 -- Hilda552 Daniella68 Swift555 (55 y/o F) Juneau, Wisconsin  (77341)
+33 -- Steven797 Maggio310 (42 y/o M) Janesville, Wisconsin DECEASED (55680)
+69 -- Jonas187 Mitchell808 (22 y/o M) Madison, Wisconsin  (29438)
+71 -- Lionel365 Balistreri607 (18 y/o M) Madison, Wisconsin  (24139)
+70 -- Ariel183 Lelia627 Turner526 (45 y/o F) Madison, Wisconsin  (61477)
+64 -- Ken316 Dach178 (77 y/o M) Madison, Wisconsin  (105309)
+72 -- Harold594 Conn188 (53 y/o M) Madison, Wisconsin  (72602)
+73 -- Allen322 Teresita257 Wilderman619 (30 y/o F) Portage, Wisconsin  (42124)
+75 -- Williams176 Medhurst46 (11 y/o M) Janesville, Wisconsin  (16302)
+33 -- Nelson403 Beatty507 (68 y/o M) Janesville, Wisconsin  (134558)
+76 -- Kaye394 Sherly665 Daniel959 (28 y/o F) Madison, Wisconsin  (39679)
+74 -- Jake169 Swift555 (79 y/o M) Baraboo, Wisconsin  (121784)
+32 -- Lakita48 Jalisa590 Huels583 (65 y/o F) Juneau, Wisconsin DECEASED (121906)
+79 -- Shantel839 Grimes165 (21 y/o F) Janesville, Wisconsin  (28481)
+62 -- Stuart913 D'Amore443 (74 y/o M) Juneau, Wisconsin DECEASED (104624)
+77 -- Misti388 Malia984 Maggio310 (52 y/o F) Portage, Wisconsin  (71721)
+78 -- Vicente970 Harvey63 (57 y/o M) Madison, Wisconsin DECEASED (77760)
+82 -- Charley358 Conn188 (9 y/o M) Portage, Wisconsin  (12988)
+81 -- Lahoma872 Tromp100 (31 y/o F) Madison, Wisconsin  (43206)
+80 -- Angelo118 DuBuque211 (66 y/o M) Juneau, Wisconsin  (89789)
+63 -- Douglass930 Davis923 (71 y/o M) Janesville, Wisconsin DECEASED (99955)
+49 -- Rick943 Stanton715 (76 y/o M) Madison, Wisconsin  (106050)
+78 -- Wilbur107 Hansen121 (59 y/o M) Madison, Wisconsin  (81211)
+84 -- Alejandro916 Hoeger474 (6 y/o M) Fort Atkinson, Wisconsin  (8664)
+83 -- Alton320 Stokes453 (61 y/o M) Madison, Wisconsin  (83400)
+53 -- Rodrigo242 Funk324 (55 y/o M) Madison, Wisconsin DECEASED (75288)
+88 -- Clarissa466 Schowalter414 (23 y/o F) Madison, Wisconsin DECEASED (34376)
+90 -- Sol312 Hamill307 (25 y/o M) Madison, Wisconsin  (35727)
+92 -- Dessie725 Feeney44 (13 y/o F) Madison, Wisconsin  (17355)
+87 -- Ashley34 Wolf938 (54 y/o M) Fort Atkinson, Wisconsin DECEASED (73255)
+86 -- Helga481 Kandace783 Wiza601 (55 y/o F) Madison, Wisconsin  (75702)
+91 -- Haley279 Kimberely738 Ferry570 (37 y/o F) Fort Atkinson, Wisconsin  (52679)
+89 -- Jan231 Traci329 Adams676 (54 y/o F) Madison, Wisconsin  (76509)
+85 -- Victor265 Bednar518 (71 y/o M) Dodgeville, Wisconsin  (102794)
+62 -- Hilario934 Schoen8 (87 y/o M) Juneau, Wisconsin  (121846)
+93 -- Stacey209 Greenfelder433 (22 y/o F) Madison, Wisconsin  (31018)
+94 -- Andre610 Cruickshank494 (24 y/o M) Madison, Wisconsin  (33652)
+95 -- Fermin479 Dietrich576 (37 y/o M) Madison, Wisconsin  (53412)
+98 -- Delmar187 Nader710 (22 y/o M) Madison, Wisconsin  (29962)
+87 -- Gerald181 Conn188 (60 y/o M) Fort Atkinson, Wisconsin DECEASED (83377)
+99 -- Rey54 Berge125 (29 y/o M) Madison, Wisconsin  (39679)
+63 -- Anthony633 Mraz590 (81 y/o M) Janesville, Wisconsin  (113921)
+88 -- Ozella681 Felicidad691 Powlowski563 (34 y/o F) Madison, Wisconsin  (46430)
+96 -- Terrell212 Kenya524 Kuphal363 (65 y/o F) Madison, Wisconsin  (94011)
+53 -- Sanford861 D'Amore443 (75 y/o M) Madison, Wisconsin DECEASED (151178)
+97 -- Dong972 Shannon293 Parisian75 (80 y/o F) Fort Atkinson, Wisconsin  (117569)
+100 -- Jose871 Corwin846 (64 y/o F) Monroe, Wisconsin  (90596)
+87 -- Kirby843 Gutmann970 (70 y/o M) Fort Atkinson, Wisconsin  (100600)
+32 -- Isabella615 Jacquline932 Crist667 (81 y/o F) Juneau, Wisconsin  (110937)
+26 -- Corey514 Genevive999 Wisozk929 (100 y/o F) Janesville, Wisconsin DECEASED (166476)
+53 -- Garland107 Sanford861 (96 y/o M) Madison, Wisconsin  (134191)
+26 -- Stasia733 Rogahn59 (70 y/o F) Janesville, Wisconsin DECEASED (96771)
+26 -- Contessa946 Magen68 Paucek755 (102 y/o F) Janesville, Wisconsin  (145547)
+Records: total=132, alive=100, dead=32
+RNG=100
+Clinician RNG=2431
+
+[32mYou've just generated 132 patients![0m We're happy to know Synthea is helping you with your project.
+Like what we're doing? Synthea is an open-source project, and your support helps us keep building.
+Please consider [34m]8;;https://github.com/sponsors/synthetichealthmaking a donation]8;;[0m (https://github.com/sponsors/synthetichealth).
+
+
+BUILD SUCCESSFUL in 10s
+4 actionable tasks: 2 executed, 2 up-to-date
+
+Errors:
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/Users/sivak/.gradle/wrapper/dists/gradle-8.14.3-bin/cv11ve7ro1n3o1j4so8xd9n66/gradle-8.14.3/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider com.oracle.truffle.js.scriptengine.GraalJSEngineFactory could not be instantiated
+

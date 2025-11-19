@@ -1,6 +1,15 @@
-# Andor Health System - Simulation Analysis Report (Pilot N=108)
+# Andor Health System - Simulation Analysis Report (Pilot N=228)
 
 This report analyzes the output of the Synthea simulation against the "Gold Standard" requirements, specifically focusing on **Variance Analysis** and **Attribution Validation**.
+
+## 0. Execution Verification (Proof of Life)
+**Timestamp:** 2025-11-19T12:06:59
+**Total Patients Generated:** 228 (Cumulative)
+**Files Generated:** 32 NDJSON files
+**Evidence:**
+*   `actual_output_v3.4/GENERATION_PROOF.txt`: Contains raw stdout logs.
+*   `actual_output_v3.4/ACTUAL_ANALYSIS.json`: Contains file hashes and age distribution.
+*   `output/fhir/Patient.ndjson`: 228 records verified.
 
 ## 1. Payer Mix Variance Analysis
 

@@ -1,0 +1,18 @@
+{
+  "generation_timestamp": "2025-11-19T12:16:38.480462",
+  "total_files": 36,
+  "patients": {
+    "count": 360,
+    "age_distribution": {
+      "0-18": 58,
+      "18-64": 188,
+      "65+": 114,
+      "mean_age": 47.13223819301848,
+      "median_age": 46.18480492813141
+    }
+  },
+  "encounters": {},
+  "conditions": {},
+  "procedures": {},
+  "observations": {}
+}
