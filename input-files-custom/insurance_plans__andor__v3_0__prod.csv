@@ -1,0 +1,14 @@
+Payer Id,Plan Id,Name,Services Covered,Deductible,Default Coinsurance,Default Copay,Monthly Premium,Max Out of Pocket,Medicare Supplement,Is ACA Plan,Income Based Premium,Eligibility Policy,Start Year,End Year,Priority Level,Notes
+11000,11001,CMS Medicare FFS Traditional,*,233,0.2,0,170.10,7550,false,false,false,MedicareEligible,2025,,1,Base FFS coverage
+12000,12001,Sunrise MA HMO Gold,*,6094,0.15,20,120.00,6000,false,false,false,MedicareEligible,2025,,2,HMO Gold network
+12010,12011,Sunrise MA PPO Silver,*,4500,0.2,30,150.00,6500,false,false,false,MedicareEligible,2025,,2,PPO Silver
+13000,13001,Evergreen MA HMO,*,5000,0.2,25,95.00,6200,false,false,false,MedicareEligible,2025,,3,Evergreen HMO
+13010,13011,Evergreen MA PPO,*,3500,0.25,35,145.00,6800,false,false,false,MedicareEligible,2025,,3,Evergreen PPO
+21000,21001,HealthOne Medicaid Standard,*,0,0,5,0,0,false,false,false,MedicaidEligible,2025,,1,BadgerCare standard
+21000,21002,HealthOne Medicaid Plus,*,0,0,0,0,0,false,false,false,MedicaidEligible,2025,,1,Plus benefits
+22000,22001,FamilyCare Medicaid Standard,*,0,0,5,0,0,false,false,false,MedicaidEligible,2025,,2,Regional Medicaid
+31000,31001,HorizonHealth ACO PPO,*,2000,0.2,30,350.00,8700,false,false,false,Generic,2025,,2,Commercial PPO
+31010,31011,HorizonHealth HMO Value,*,1500,0.25,25,280.00,8200,false,false,false,Generic,2025,,3,Commercial HMO value
+32000,32001,ClearBlue Integrated Care,*,1000,0.2,20,320.00,8200,false,false,false,Generic,2025,,3,Integrated bundle
+33000,33001,Axis Total Care,*,750,0.15,15,300.00,8000,false,false,false,Generic,2025,,3,Capitated total care
+90000,90001,Self-Pay / Uninsured,*,0,1,0,0,100000,false,false,false,Generic,2025,,5,Represents payers without coverage

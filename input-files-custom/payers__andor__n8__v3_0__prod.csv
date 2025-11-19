@@ -1,0 +1,13 @@
+Id,Name,Address,City,State Headquarterd,Zip,Phone,States Covered,Ownership,Market Share,Priority Level,Notes
+11000,CMS Medicare FFS,7500 Security Blvd,Baltimore,MD,21244,1-800-633-4227,WI,Government,0.2521,1,Andor v3.1 base Medicare FFS
+12000,Sunrise Medicare Advantage HMO,1 Andor Plaza,Madison,WI,53703,608-555-1100,WI,Private,0.140063,2,MA Gold HMO
+12010,Sunrise Medicare Advantage PPO,1 Andor Plaza,Madison,WI,53703,608-555-1100,WI,Private,0.084038,2,MA Silver PPO
+13000,Evergreen Medicare Advantage HMO,200 Oak St,Sun Prairie,WI,53590,608-555-1200,WI,Private,0.056,3,MA Evergreen HMO
+13010,Evergreen Medicare Advantage PPO,200 Oak St,Sun Prairie,WI,53590,608-555-1200,WI,Private,0.028,3,MA Evergreen PPO
+21000,HealthOne Medicaid HMO,480 Badger Rd,Madison,WI,53713,608-555-2100,WI,Government,0.1684,1,BadgerCare alignment
+22000,FamilyCare Medicaid HMO,320 Prairie Ave,Monroe,WI,53566,608-555-2200,WI,Government,0.0561,2,Regional Medicaid HMO
+31000,HorizonHealth Commercial PPO,900 Capital Sq,Madison,WI,53703,608-555-3100,WI,Private,0.088,2,ACO PPO contract
+31010,HorizonHealth Commercial HMO,900 Capital Sq,Madison,WI,53703,608-555-3100,WI,Private,0.0468,3,HMO Value
+32000,ClearBlue Integrated Care,77 Riverfront Dr,Janesville,WI,53545,608-555-3200,WI,Private,0.041,3,Commercial bundle
+33000,AxisBenefits Total Care,65 Innovation Way,Fitchburg,WI,53711,608-555-3300,WI,Private,0.0293,3,Capitated commercial
+90000,Self-Pay / Uninsured,1 Charity Ln,Madison,WI,53715,608-555-9900,WI,Private,0.01,4,Represents uninsured population

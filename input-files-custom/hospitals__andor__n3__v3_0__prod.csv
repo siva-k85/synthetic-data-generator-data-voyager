@@ -1,0 +1,4 @@
+provider_num,npi,name,address,city,state,zip,fips_county,lat,lon,phone,provider_type_code,category,emergency,upin,pin,region_code,bed_count,clia_lab_number
+910001,1991234567,Andor Medical Center,123 University Ave,Madison,WI,53715,025,43.0710,-89.4008,6085550100,00-09,01-02,true,,,04,350,
+910002,1779987654,Andor Community Hospital,200 River St,Janesville,WI,53545,105,42.6828,-89.0187,6085550200,00-09,01-02,true,,,04,150,
+910003,1888876543,Andor Rural Hospital,50 Hilltop Rd,Baraboo,WI,53913,111,43.4740,-89.7440,6085550300,00-09,01-02,false,,,04,25,

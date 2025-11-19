@@ -1,0 +1,7 @@
+provider_num,npi,name,address,city,state,zip,fips_county,lat,lon,phone,provider_type_code,category,emergency,upin,pin,region_code,bed_count,clia_lab_number
+920001,1881234501,Family Medicine North,101 North St,Madison,WI,53704,025,43.1201,-89.3654,6085551100,00-04,21-01,true,,,04,,
+920002,1771234502,Family Medicine South,202 South St,Madison,WI,53711,025,43.0256,-89.4232,6085551200,00-04,21-01,true,,,04,,
+920003,1661234503,Internal Medicine Clinic,300 Main St,Madison,WI,53703,025,43.0747,-89.3869,6085551300,00-04,21-01,true,,,04,,
+920004,1551234504,Pediatrics - Greenfield,10 Oak Ave,Monroe,WI,53566,045,42.6050,-89.6380,6085551400,00-04,21-01,true,,,04,,
+920005,1441234505,Rural Family Health Center,5 County Rd,Dodgeville,WI,53533,049,42.9608,-90.1307,6085551500,00-04,21-01,true,,,04,,
+920006,1331234506,Lakeview Pediatrics,20 Lakeview Dr,Portage,WI,53901,021,43.5391,-89.4631,6085551600,00-04,21-01,true,,,04,,
