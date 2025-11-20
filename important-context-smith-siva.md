@@ -2334,4 +2334,118 @@ Below is the verbatim transcript extracted from the Teams meeting.  Each line co
 This list reproduces each utterance verbatim in the order they appeared in the meeting transcript.
 """
 
-give me the most accurate and thorough insights and clear breakdown of the exact specific tasks she's asked me to do and how. provide a very clear and accurate prompt for another LLM to do research and to provide the most accurate steps for each subtask she's asked me to do including thorough documentation using her methodology of me providing deliverables and submissions to go beyond her expectations while also i personally completely understand everything and can provide a complete deep dive into the context and explain it to her well
+give me the most accurate and thorough insights and clear breakdown of the exact specific tasks she's asked me to do and how. provide a very clear and accurate prompt for another LLM to do research and to provide the most accurate steps for each subtask she's asked me to do including thorough documentation using her methodology of me providing deliverables and submissions to go beyond her expectations while also i personally completely understand everything and can provide a complete deep dive into the context and explain it to her well.
+
+
+
+GRADLE USEAGES:
+Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'synthea'
+------------------------------------------------------------
+
+Application tasks
+-----------------
+attributes - Create a list of patient attributes
+concepts - Create a list of simulated concepts
+conceptswithoutcosts - Create a list of simulated concepts without costs
+flexporter - Apply transformations to FHIR
+graphviz - Generate rule visualization
+overrides - Create a list of modules parameters in module override format
+physiology - Test a physiology simulation
+rif2CCW - Convert exported RIF files from BB2 format to CCW format
+rifBeneSplit - Split original 3  RIF file bene export into one file per year
+rifMinimize - Filter exported RIF files to produce minimal set that covers all claim types
+run - Runs this project as a JVM application
+runShadow - Runs this project as a JVM application using the shadow jar
+startShadowScripts - Creates OS specific scripts to run the project as a JVM application using the shadow jar
+
+Build tasks
+-----------
+assemble - Assembles the outputs of this project.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+classes - Assembles main classes.
+clean - Deletes the build directory.
+jar - Assembles a jar archive containing the classes of the 'main' feature.
+testClasses - Assembles test classes.
+versionTxt - Generates a version file.
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+updateDaemonJvm - Generates or updates the Gradle Daemon JVM criteria.
+wrapper - Generates Gradle wrapper files.
+
+Distribution tasks
+------------------
+assembleDist - Assembles the main distributions
+assembleShadowDist - Assembles the shadow distributions
+distTar - Bundles the project as a distribution.
+distZip - Bundles the project as a distribution.
+installDist - Installs the project as a distribution as-is.
+installShadowDist - Installs the project as a distribution as-is.
+shadowDistTar - Bundles the project as a distribution.
+shadowDistZip - Bundles the project as a distribution.
+
+Documentation tasks
+-------------------
+javadoc - Generates Javadoc API documentation for the 'main' feature.
+
+Help tasks
+----------
+artifactTransforms - Displays the Artifact Transforms that can be executed in root project 'synthea'.
+buildEnvironment - Displays all buildscript dependencies declared in root project 'synthea'.
+dependencies - Displays all dependencies declared in root project 'synthea'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'synthea'.
+help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+outgoingVariants - Displays the outgoing variants of root project 'synthea'.
+projects - Displays the sub-projects of root project 'synthea'.
+properties - Displays the properties of root project 'synthea'.
+resolvableConfigurations - Displays the configurations that can be resolved in root project 'synthea'.
+tasks - Displays the tasks runnable from root project 'synthea'.
+
+IDE tasks
+---------
+cleanEclipse - Cleans all Eclipse files.
+eclipse - Generates all Eclipse files.
+
+Publishing tasks
+----------------
+generateMetadataFileForSyntheaPublication - Generates the Gradle metadata file for publication 'synthea'.
+generatePomFileForSyntheaPublication - Generates the Maven POM file for publication 'synthea'.
+publish - Publishes all publications produced by this project.
+publishAllPublicationsToMavenRepository - Publishes all Maven publications produced by this project to the maven repository.
+publishSyntheaPublicationToMavenLocal - Publishes Maven publication 'synthea' to the local Maven repository.
+publishSyntheaPublicationToMavenRepository - Publishes Maven publication 'synthea' to Maven repository 'maven'.
+publishToMavenLocal - Publishes all Maven publications produced by this project to the local Maven cache.
+
+Shadow tasks
+------------
+knows - Do you know who knows?
+shadowJar - Create a combined JAR of project and runtime dependencies
+
+Verification tasks
+------------------
+check - Runs all checks.
+jacocoTestCoverageVerification - Verifies code coverage metrics based on specified rules for the test task.
+jacocoTestReport - Generates code coverage report for the test task.
+test - Runs the test suite.
+
+Rules
+-----
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+
+To see all tasks and more detail, run gradlew tasks --all
+
+To see more detail about a task, run gradlew help --task <task>
+
+BUILD SUCCESSFUL in 358ms
+1 actionable task: 1 executed
+sivak@Sivas-MacBook-Pro synthetic-data-generator-data-voyager % 
+
+
