@@ -1,72 +1,43 @@
-# Andor 1000 Run (seed 5150) — Presentation-Ready Brief for Dr. Smith
+# Andor 1000 Run – Handoff for Dr. Smith (seed 5150)
 
-## 🧭 Core Message
-“The practitioner/org mapping pipeline is ready to execute. I need the canonical Andor organization hierarchy to finish the replacement and release mapped analytics. I can prove the logic today with placeholder org IDs if you approve.”
+## Core Message
+The mapping/validation pipeline is **implemented and tested end‑to‑end** on the 1000‑patient Andor run using placeholder Andor org IDs (ANDOR_ORG_xxx) and canonical practitioner IDs (AHSP‑xxxx). All encounter/practitioner references now resolve to the mapping tables with **0 missing mappings**. To ship the final production mapping we only need the **canonical Andor organization GUIDs**; swapping them in is a one‑hour rerun.
 
----
+## What Is Inside This Folder
+- `practitioner_mapping.csv` – canonical AHSP practitioner IDs with specialties and target orgs (placeholder orgs currently).
+- `organization_mapping.csv` – Andor organization hierarchy template (Org/1 system, Org/2–4 hospitals, clinics/locations placeholders until GUIDs are supplied).
+- `replace_references.py` – streaming NDJSON transformer used for the run.
+- `mapping_plan.md` – field‑by‑field replacement & validation spec.
+- `TASK_andor1000_analysis.md` – task tracker/status.
+- `drilldowns/` – two mapped drilldowns (specialist‑heavy adult, low‑utilization pediatric). When canonical orgs are applied, regenerate to reflect final IDs.
 
-## ✅ What’s Done (First Principles Framing)
-**Why:** Encounters must be attributable to real Andor providers/clinics for quality credit, billing, and care coordination roll‑ups.
+## What We Executed (Current State)
+- Ran `replace_references.py` on `runs/20251120_170157_andor1000/output/fhir` → produced fully mapped placeholders in `runs/20251120_170157_andor1000_mapped/output/fhir`.
+- Validation: 0 unmapped practitioner/org references across Encounter, DiagnosticReport, DocumentReference, CareTeam, MedicationRequest, ServiceRequest, Claim, EOB, Provenance. Practitioner IDs are all AHSP‑xxxx; organizations are ANDOR_ORG_xxx placeholders derived from source displays.
+- Generated drilldowns on mapped data:
+  - `drilldown_ab4a622d-fecf-7852-bc88-6371a067070f.md` – specialist‑heavy adult.
+  - `drilldown_06ca6d0f-2c77-654d-4690-88feb73a0330.md` – low‑util pediatric (no true low‑util adult exists in this run; see “Gap” below).
 
-- Extracted provider roster from Synthea output (practitioner IDs, NPIs, names) — this is the synthetic analog of Epic’s provider master.
-- Built mapping templates:
-  - `dr_smith_package/practitioner_mapping_stub.csv` (NPIs prefilled, ready for Andor IDs/orgs).
-  - `dr_smith_package/organization_mapping_stub.csv` (headers ready; needs org GUIDs).
-- Documented replacement & validation logic in `docs/mapping_plan.md`:
-  - Field-by-field Practitioner/Org replacement across Encounter, DiagnosticReport, DocumentReference, CareTeam, MedicationRequest, ServiceRequest, Claim, EOB, Provenance.
-  - Validation: 100% Encounters mapped to PCP + serviceProvider; zero unmapped refs; practitioner↔org pair counts.
-- Analysis complete on unmapped data:
-  - 0% missing practitioners/orgs in Encounter references.
-  - Five drilldowns (pediatric, teen, elderly, multimorbid adult, deceased adult) in `docs/andor_practitioner_org_analysis.md`.
-- GraphViz fixed (Java 21) and ready to share: metabolic syndrome, hypertension, CKD PNGs copied to `dr_smith_package/graphviz/`.
+## Gaps / Decision Points
+1) **Canonical org GUIDs**: needed to replace ANDOR_ORG_xxx placeholders. Once provided, rerun `replace_references.py` (runtime ~10 min) to write `..._canonical/output/fhir` and regenerate drilldowns.
+2) **Low‑util adult drilldown**: the dataset has no adults with ≤6 encounters. If you want an adult exemplar, we can regenerate with a higher threshold or run a smaller cohort tuned for low utilization.
+3) **Coverage**: ServiceRequest counting is already set to “full” (standalone + EOB‑contained). If you want explicit Coverage resources, I can synthesize them from payer/plan CSVs or enable export in the next run.
 
----
+## How to Reproduce Final Mapping Once Org GUIDs Arrive
+1. Populate `organization_mapping.csv` `source_org_id → org_guid` using the provided GUIDs (keep parent hierarchy columns).
+2. (Optional) If practitioner org affiliations change, update `practitioner_mapping.csv` `andor_org_guid` column accordingly.
+3. Run: `python3 replace_references.py --input runs/20251120_170157_andor1000/output/fhir --mapping dr_smith_package/andor1000 --output runs/20251120_170157_andor1000_canonical/output/fhir`
+4. Regenerate drilldowns with `python3 dr_smith_package/generate_drilldowns.py --input runs/20251120_170157_andor1000_canonical/output/fhir --out runs/20251120_170157_andor1000_canonical/output/drilldowns`
+5. Validate: ensure practitioner/org missing counts = 0; practitioner↔org pairs sum to total encounters.
 
-## ⏳ What’s Ready to Execute (Awaiting One Input)
-**Blocker:** Canonical Andor org hierarchy (system → 3 hospitals → clinics/departments).
+## Files To Hand Dr. Smith
+- This README.
+- `practitioner_mapping.csv`, `organization_mapping.csv` (current mappings + template).
+- Drilldowns in `drilldowns/`.
+- Spec (`mapping_plan.md`) and task log (`TASK_andor1000_analysis.md`).
+- GraphViz PNGs already stored in `dr_smith_package/graphviz/` (diabetes, HTN, CKD) – ready to add to the zip.
 
-**Why it matters:** Replacement needs real org IDs/names to roll encounters to “Andor West Clinic” (not random GUIDs) for contract attribution and performance dashboards.
-
-**Workarounds you can choose:**
-1) **Fast path (preferred):** You provide org GUIDs/names/parents from Andor_Health_System_v5e.md → I run full mapping/validation in 1 day.
-2) **Test path:** I use placeholder org IDs (ANDOR_ORG_001…) and execute the full pipeline now; swap to real IDs later (1 hour to rerun).
-3) **Partial path:** Map practitioners by NPI only, leave orgs unmapped; still validates practitioner attribution.
-
-**My recommendation:** Option 2 now to show end-to-end results; swap IDs when you hand them over.
-
----
-
-## 🧪 Validation Plan (already coded)
-- Hash maps: `NPI → Andor Practitioner ID`, `source_org_id → Andor Org GUID`.
-- Streaming NDJSON transformer: rewrites references in all target resources.
-- Post-checks: 100% Encounters with mapped participant + serviceProvider; zero unmapped Practitioner/Org refs; practitioner↔org pair totals = Encounter count; missing_mappings.csv if any gaps.
-- Drilldowns: regenerate with mapped IDs + add two more (specialist-heavy, low-utilization).
-
----
-
-## 📄 Deliverables in this folder
-- This brief: `dr_smith_package/andor1000/README.md`
-- Mapping stubs: `dr_smith_package/practitioner_mapping_stub.csv`, `dr_smith_package/organization_mapping_stub.csv`
-- Specs: `docs/mapping_plan.md`, `docs/andor_practitioner_org_analysis.md`
-- GraphViz assets: `dr_smith_package/graphviz/*.png`
-
----
-
-## ❓ Decisions Needed from You
-1) Provide or approve the Andor org hierarchy (GUIDs, names, parent-child).
-2) Approve running with placeholder org IDs now (yes/no).
-3) Coverage handling: do you want synthetic Coverage built from payer CSVs immediately, or wait for Coverage export to be enabled?
-
----
-
-## 📅 Timeline After Org IDs Arrive
-Day 1: Apply mappings + validate + rerun frequency/pairs  
-Day 2: Add two drilldowns; rerun generic clinic (if needed); assemble package  
-Total: ~3 days to final delivery (including review buffer)
-
----
-
-## 🔎 If Asked in the Meeting
-- “Why not keep Synthea orgs?” → Because performance reports must say “Andor West Clinic closed 85% of eye exam gaps,” not “Org abc-123.”
-- “How do you ensure correctness?” → Validation enforces 0 unmapped refs; encounter counts must reconcile; pair table must sum to total encounters.
-- “What about referrals?” → ServiceRequest counting uses full mode (standalone + EOB-contained); validated on Abe surrogate with 14 contained SRs—this mirrors Epic order-in-visit behavior.
+## Contact Prep / Talking Points
+- “All references now resolve to AHSP practitioner IDs; 0 missing. Org placeholders will be swapped as soon as you provide the GUID list.”
+- “Full ServiceRequest counting includes EOB‑embedded referrals (mirrors Epic order‑in‑visit behavior).”
+- “Low‑util adult exemplar not present; we can generate one with a tuned run if you want it for training materials.”

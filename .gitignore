@@ -55,3 +55,10 @@ production_run_1000/
 
 # Generated run outputs (too large for git)
 runs/*/output/
+
+# Debug output files
+debug_output*.txt
+
+# Archive files
+*.zip
+siva_synthea_*/

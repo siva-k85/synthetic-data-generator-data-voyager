@@ -1,0 +1,17 @@
+source_org_id,source_system,org_guid,andor_org_name,org_type,parent_org_guid,notes
+,synthea_andor_1000,Organization/1,Andor Health System,prov,,System Root
+,synthea_andor_1000,Org/2,Andor Medical Center,hospital,Organization/1,Tertiary Hospital (350 beds)
+,synthea_andor_1000,Org/3,Andor Community Hospital,hospital,Organization/1,Community Hospital (150 beds)
+,synthea_andor_1000,Org/4,Andor Rural Hospital,hospital,Organization/1,Critical Access Hospital (25 beds)
+,synthea_andor_1000,Location/101,Family Medicine North,clinic,Org/2,Primary Care
+,synthea_andor_1000,Location/102,Family Medicine South,clinic,Org/2,Primary Care
+,synthea_andor_1000,Location/103,Internal Medicine Clinic,clinic,Org/2,Primary Care
+,synthea_andor_1000,Location/104,Pediatrics - Greenfield,clinic,Org/2,Primary Care
+,synthea_andor_1000,Location/105,Rural Family Health Center,clinic,Org/4,Primary Care
+,synthea_andor_1000,Location/106,Lakeview Pediatrics,clinic,Org/3,Primary Care
+,synthea_andor_1000,Location/107,Andor Heart Institute,clinic,Org/2,Specialty
+,synthea_andor_1000,Location/108,Orthopedic Center,clinic,Org/2,Specialty
+,synthea_andor_1000,Location/109,Oncology Center,clinic,Org/2,Specialty
+,synthea_andor_1000,Location/110,Women's Health & OBGYN,clinic,Org/2,Specialty
+,synthea_andor_1000,Location/111,Endocrinology & Diabetes Center,clinic,Org/2,Specialty
+,synthea_andor_1000,Location/112,Pulmonary Clinic,clinic,Org/2,Specialty
