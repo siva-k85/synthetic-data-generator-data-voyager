@@ -1,0 +1,4 @@
+Command: ./run_synthea -p 100 -s 4242 -cs 4242 --exporter.baseDirectory=runs/20251120_165848_default100/output --exporter.fhir.export=true --exporter.csv.export=true --exporter.fhir.use_us_core_ig=true --exporter.fhir.us_core_version=6.1.0
+Timestamp: 
+Seeds: patient=4242, clinician=4242
+No NDJSON files found in runs/20251120_165848_default100/output/fhir; hash file not created.

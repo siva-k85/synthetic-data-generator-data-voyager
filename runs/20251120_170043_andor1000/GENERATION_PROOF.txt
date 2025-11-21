@@ -1,0 +1,5 @@
+Command: ./run_synthea -p 1000 -s 5150 -cs 5150 Wisconsin --exporter.baseDirectory=runs/20251120_170043_andor1000/output --exporter.fhir.export=true --exporter.csv.export=true --exporter.fhir.use_us_core_ig=true --exporter.fhir.us_core_version=6.1.0 --generate.providers.selection_behavior=network
+Timestamp: 
+Seeds: patient=5150, clinician=5150
+Note: relies on geography/payers/providers CSVs already set in synthea.properties
+No NDJSON files found in runs/20251120_170043_andor1000/output/fhir; hash file not created.

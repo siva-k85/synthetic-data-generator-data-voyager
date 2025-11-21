@@ -52,3 +52,6 @@ src/main/resources/export/outpatient_rev_cntr_code_map.json
 # VS Code plugin files
 .history
 production_run_1000/
+
+# Generated run outputs (too large for git)
+runs/*/output/

@@ -1,0 +1,11 @@
+provider_num,npi,name,address,city,state,zip,fips_county,lat,lon,phone,provider_type_code,category,emergency,upin,pin,region_code,bed_count,clia_lab_number
+930001,1999000001,East Clinic,100 East Ave,Madison,WI,53703,025,43.0750,-89.3800,6085552001,00-04,21-01,true,,,04,,
+930002,1999000002,West Clinic,200 West St,Madison,WI,53711,025,43.0300,-89.4300,6085552002,00-04,21-01,true,,,04,,
+930003,1999000003,North Clinic,300 North Rd,Sun Prairie,WI,53590,077,43.1900,-89.2200,6085552003,00-04,21-01,true,,,04,,
+930004,1999000004,South Clinic,400 South Rd,Fitchburg,WI,53711,025,43.0000,-89.4200,6085552004,00-04,21-01,true,,,04,,
+930005,1999000005,Central Clinic,500 Central Blvd,Monona,WI,53716,025,43.0600,-89.3300,6085552005,00-04,21-01,true,,,04,,
+930006,1999000006,Suburban Clinic,600 Suburban Dr,Middleton,WI,53562,025,43.0970,-89.5040,6085552006,00-04,21-01,true,,,04,,
+930101,1889000101,Cardiology East,101 Heart Ave,Madison,WI,53703,025,43.0760,-89.3810,6085552101,23-01,23-01,true,,,04,,
+930102,1889000102,Endocrinology West,201 Endo St,Madison,WI,53711,025,43.0310,-89.4310,6085552102,23-02,23-02,true,,,04,,
+930103,1889000103,Nephrology North,301 Kidney Rd,Sun Prairie,WI,53590,077,43.1910,-89.2210,6085552103,23-03,23-03,true,,,04,,
+930104,1889000104,Pulmonology South,401 Lung Rd,Fitchburg,WI,53711,025,43.0010,-89.4210,6085552104,23-04,23-04,true,,,04,,
